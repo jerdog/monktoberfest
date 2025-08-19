@@ -1,0 +1,72 @@
+schedule:
+  enable : true
+  title_outline : "schedule"
+  title : "High-level Agenda"
+  content : "**Monktoberfest** is a day and a half of single track sessions, with a relaxed schedule that will allow for an equally rewarding hallway track. We do not disclose our speaker list in advance (<a href=/blog/why-the-monktoberfest-agenda-is-not-disclosed.md>here’s the rationale about why</a>), but we recognize that it can be helpful to have a general sense of what to expect from a conference. You can get a sense of content you can expect by looking at talks from our previous events and recaps from the team.<p>Below is a high-level agenda of what you can expect for the 2025 event.</p>"
+  schedule_tab:
+    ################# tab itam loop ################
+    - title : "Day 0"
+      date_time : "Wednesday, October 2, 2025"
+      schedule_items:
+        # schedule loop item
+        - time : "5:15 PM - 8:30 PM"
+          image : ""
+          content : "
+
+          **Venue:** CASCO BAY LINES ([location](https://maps.app.goo.gl/sffy6Qhv6VwpFjvJ7))<br />
+
+          <p>Attendees arriving the night before the conference will be treated to a special welcome event. If you can make it to the Portland waterfront by 5:15, we will be buying you a few of the best local beers while we take a sunset cruise around the Casco Bay. Bring warm layers suitable for going out on the water.</p>
+
+          <p>While we will provide a few things to nibble on, we won’t have a full meal on the boat so plan accordingly. We’ll turn you all loose to grab dinner at one of the dozens of nationally renowned restaurants in the neighborhood upon our return to port.</p>
+
+          <p>Getting in to town late? Check the #monktoberfest tag on <a href=https://twitter.com/hashtag/monktoberfest>Twitter</a> or <a href=https://bsky.app/hashtag/monktoberfest>Bluesky</a>, or the <a href=http://slackmonk.herokuapp.com/>Monktoberfest Slack channel</a> to catch up with your fellow attendees. We’ll be back to grab food and drinks with you around 8:30.</p>
+          "
+
+    ################# tab itam loop ################
+    - title : "Day 1"
+      date_time : "Thursday, October 3, 2025"
+      schedule_items:
+        # schedule loop item
+        - time : "10:00 AM - 5:00 PM"
+          image : ""
+          content : "
+
+          ### Conference
+
+          **Venue:** HALO AT THE POINT ([location](https://maps.app.goo.gl/oxjo7J8jvUgYAtnx9))<br />
+
+          <p>The Main Event. Beginning bright and not early at 10 AM Thursday, we kick off the Day 1 sessions at Halo on the Point. Plan on arriving between 9:30 and 10 AM for registration.</p>
+
+          <p>We’ll provide breakfast, lunch, and snacks, along with high quality coffee and world class beer.</p>
+
+          <p><a href=blog/why-the-monktoberfest-agenda-is-not-disclosed.md>We do not publicize our speakers in advance</a>, but rest assured that you will be treated to amazing talks. Check out the videos on previous years’ agendas to get a sense of the type of material you can look forward to.</p>
+          "
+
+        # schedule loop item
+        - time : "6:00 PM - 10:00 PM"
+          image : ""
+          content : "
+
+          **Venue:** To Be Disclosed<br />
+
+          <p>The perfect cap to the day. A full spread and beer tasting personally guided by one of the best in the world, the Monktoberfest’s own Ryan Travers. As usual, he’s curating a brilliant beer list and will be walking us through each pairing.</p>
+
+          <p>Like our speaker list, we don’t share details about the beers or venue in advance of the conference, but expect an epic evening with your fellow attendees.</p>
+          "
+
+    ################# tab itam loop ################
+    - title : "Day 2"
+      date_time : "Friday, October 4, 2025"
+      schedule_items:
+        # schedule loop item
+        - time : "10:00 AM - 1:00 PM"
+          image : ""
+          content : "
+
+          ### Conference
+
+          **Venue:** HALO AT THE POINT ([location](https://maps.app.goo.gl/oxjo7J8jvUgYAtnx9))<br />
+
+          <p>Sleep in a bit, then rejoin us at Halo for our final session. We will have coffee and breakfast waiting for you, as well as another fantastic half-day of talks. Following the conclusion of the show, we will unleash you on downtown Portland for lunch with a new friend or five.</p>
+          "
+

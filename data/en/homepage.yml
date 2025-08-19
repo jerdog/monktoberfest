@@ -1,0 +1,191 @@
+############################# banner ################################
+banner:
+  enable : true
+  title : "The developer conference where social meets technology"
+  bg_image: "images/cropped-portland.jpg"
+  date_time : "October 3-4, 2025 | Portland, Maine"
+  button:
+    enable : false
+    label : "Discover more"
+    link : "service"
+
+########################## timer #################################
+timer:
+  enable : true
+  title : "Countdown to Monktoberfest 2025"
+  # set timer
+  year: "2025"
+  month: "10"
+  day: "03"
+  hour: "10"
+
+############################## Event ##############################
+event:
+  enable : true
+  title_outline : "2025"
+  title : "The Monktoberfest"
+  image_back : "images/about/h1-gallery-img-7.jpg"
+  image_front : "images/about/main-home-img-1.jpg"
+  content : "The conference that was born from a <strong><a href=https://twitter.com/sogrady/statuses/38353939124461568>tweet</a></strong> is back for 2025, bringing you the best speakers, talks you will hear nowhere else and – of course – the best craft beer the world has to offer. <p>Attendees arriving the night before the conference will be treated to a special welcome event. Thursday will feature a full day of single track sessions, and at the conclusion of the day we will be gathering for our usual off-the-hook beer tasting and dinner. Join us on Friday for a half day of sessions before heading out to enjoy an autumn in the lovely Portland, ME.</p>"
+  button:
+    enable : true
+    label : "Discover More"
+    link : "service"
+
+######################### Call to action #########################
+cta:
+  enable : false
+  subtitle : "10% Sale offer for early birds"
+  title : "Meet top **digital masters** <br> & influencers in a unique **3-days** experience."
+  image : "images/banner/rev-slider-09.png"
+  button:
+    enable : true
+    label : "get ticket"
+    link : "pricing"
+
+############################# Feature ###########################
+# feature:
+#   enable: false
+#   feature_item:
+#     # feature item loop
+#     - name : "Valuable Insight"
+#       icon : "tf-ion-android-microphone"
+#       content : "Events Drinks and Dancing are hosting an After Party and YOU ARE INVITED!!"
+
+#     # feature item loop
+#     - name : "Global Audience"
+#       icon : "tf-ion-android-globe"
+#       content : "Starting a mentoring program might be the closest you'll ever get to making a business decision that has exclusively positive impact."
+
+#     # feature item loop
+#     - name : "Great Community"
+#       icon : "tf-ion-android-share"
+#       content : "Networking is the exchange of information and ideas among people with a common profession or special interest, usually in an informal social setting."
+
+####################### Schedule #############################
+schedule:
+  enable : true
+  # schedule data comes from "schedule.yml" file
+
+# ####################### pricing #############################
+# pricing:
+#   enable : false
+#   # pricing data comes from "pricing.yml" file
+
+# ########################## speakers ##########################
+# speaker:
+#   enable : false
+#   title_outline : "Speakers"
+#   title : "Who're speaking"
+#   content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+#   # speaker content comes from "content/speaker" folder
+
+######################### sponsors ############################
+sponsor:
+  enable :  true
+  title_outline : "Sponsors"
+  title : "Thank you to our 2025 sponsors"
+  sponsor_group:
+    ############################ sponsor group loop
+    - title : "Trappist"
+      sponsor:
+        # sponsor loop
+        - logo : "/images/sponsors/1024px-aws_logo.png"
+          link : "https://aws.amazon.com/"
+
+    ############################ sponsor group loop
+    - title : "Abbot"
+      sponsor:
+        # sponsor loop
+        - logo : "/images/sponsors/ibm-logo.png"
+          link : "https://ibm.com"
+
+        # sponsor loop
+        - logo : "/images/sponsors/google-logo.webp"
+          link : "https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header"
+
+        # sponsor loop
+        - logo : "/images/sponsors/heroku-logo.webp"
+          link : "https://heroku.com"
+
+    ############################ sponsor group loop
+    - title : "Diversity and Inclusion"
+      sponsor:
+        # sponsor loop
+        - logo : "/images/sponsors/mongodb-logo.png"
+          link : "https://mongodb.com"
+
+    ############################ sponsor group loop
+    - title : "Conference Dinner"
+      sponsor:
+        # sponsor loop
+        - logo : "/images/sponsors/redhat-logo.png"
+          link : "https://www.redhat.com/en"
+
+    ############################ sponsor group loop
+    - title : "Beer Glasses"
+      sponsor:
+        # sponsor loop
+        - logo : "/images/sponsors/oracle-logo.webp"
+          link : "https://www.oracle.com/"
+
+    ############################ sponsor group loop
+    - title : "Lunch"
+      sponsor:
+        # sponsor loop
+        - logo : "/images/sponsors/dynatrace-logo.webp"
+          link : "https://www.dynatrace.com/"
+
+    ############################ sponsor group loop
+    - title : "Dinner Cruise"
+      sponsor:
+        # sponsor loop
+        - logo : "/images/sponsors/dynatrace-logo.webp"
+          link : "https://www.dynatrace.com/"
+
+    ############################ sponsor group loop
+    - title : "Coffee"
+      sponsor:
+        # sponsor loop
+        - logo : "/images/sponsors/cncf-logo.webp"
+          link : "https://www.cncf.io/"
+
+    - title : "Coffee"
+      sponsor:
+        # sponsor loop
+        - logo : "/images/sponsors/heroku-logo.webp"
+          link : "https://heroku.com"
+
+    ############################ sponsor group loop
+    - title : "Breakfast"
+      sponsor:
+        # sponsor loop
+        - logo : "/images/sponsors/findhelp-logo.webp"
+          link : "https://www.findhelp.org/"
+
+  # call to action in sponsor
+  sponsorship:
+    enable : true
+    title : "Want to be a sponsor?"
+    label : "Contact Us"
+    link : "mailto:mharris@redmonk.com?subject=Monktoberfest%20Sponsorship%20Inquiry"
+
+################################ venue ########################
+venue:
+  enable : true
+  title : "Venue location"
+  image : "/images/emptyhalodaylight002.jpg"
+  date : "October 3-4, 2025"
+  location : "Halo at the Point, 20 Van Aken Wy <br />Portland, ME"
+  button:
+    enable : true
+    label : "View Map location"
+    link : "https://maps.app.goo.gl/YaPCH3pfeuYtCv468"
+
+############################### Blog ######################################
+blog:
+  enable : true
+  title_outline : "News"
+  title : "Latest News"
+  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  # blog content comes from "content/blog" folder

@@ -1,0 +1,224 @@
+######################## default configuration ####################
+baseURL = "https://monktoberfest.jerdog.workers.dev"
+title = "The Monktoberfest"
+theme = "vixcon-hugo"
+# post pagination
+pagination.pagerSize = 4
+# post excerpt
+summaryLength = "25"
+# disable language
+disableLanguages = [] # disable language from here
+
+########################### Services #############################
+[services]
+[services.googleAnalytics]
+ID = 'G-MEASUREMENT_ID' # see https://gohugo.io/templates/internal/#configure-google-analytics
+
+# [services.disqus]
+# shortname = 'themefisher-template' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+
+# output
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+############################# Plugins ##############################
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/css/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themefisher-font/themefisher-font.min.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/js/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/syotimer/syotimer.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/google-map/map.js"
+
+############################## navigation ###############################
+[menu]
+
+[[menu.main]]
+name = "Attend"
+URL = "attend/"
+weight = 2
+hasChildren = true
+
+[[menu.main]]
+parent = "Attend"
+name = "COVID Policy"
+URL = "covid-policy/"
+weight = 1
+
+[[menu.main]]
+parent = "Attend"
+name = "Tickets"
+URL = "tickets/"
+weight = 2
+
+[[menu.main]]
+parent = "Attend"
+name = "CFP"
+URL = "cfp/"
+weight = 3
+
+[[menu.main]]
+parent = "Attend"
+name = "Diversity & Inclusion Policy"
+URL = "diversity-inclusion/"
+weight = 4
+
+[[menu.main]]
+parent = "Attend"
+name = "Accessibility"
+URL = "accessibility/"
+weight = 5
+
+[[menu.main]]
+parent = "Attend"
+name = "Conduct"
+URL = "code-of-conduct/"
+weight = 6
+
+[[menu.main]]
+name = "Program"
+URL = "#schedule"
+weight = 3
+
+[[menu.main]]
+weight = 4
+name = "Sponsors"
+URL = "#sponsors"
+
+# [[menu.main]]
+# parent = "Sponsors"
+# name = "Become a Sponsor"
+# weight = 1
+# URL = "become-a-sponsor/"
+
+[[menu.main]]
+weight = 6
+name = "Travel"
+URL = "travel/"
+hasChildren = true
+
+[[menu.main]]
+parent = "Travel"
+name = "Venues"
+weight = 1
+URL = "venues/"
+
+[[menu.main]]
+parent = "Travel"
+name = "Portland"
+weight = 2
+URL = "portland/"
+
+[[menu.main]]
+name = "Blog"
+weight = 7
+URL = "blog/"
+
+[[menu.main]]
+name = "FAQ"
+URL = "faq/"
+weight = 8
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.webp"
+home = "Home"
+# Meta data
+description = "The developer conference where social meets technology"
+author = "Redmonk"
+# email address
+email = "mharris@redmonk.com"
+# contact form action
+# contact_form_action = "#" # contact form works with https://formspree.io
+# search for blog page
+search = true
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation button
+[params.navigation_button]
+enable = true
+label = "Buy Tickets"
+link = "https://ti.to/monktoberfest/2025"
+
+# Subscription
+[params.subscription]
+enable = true
+# mailchimp subsciption
+# mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+# mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                                                           # replace this code with yours
+
+# google map
+# [params.map]
+# enable = true
+# gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+# map_latitude = "51.5223477"
+# map_longitude = "-0.1622023"
+# map_marker = "images/marker.png"
+
+
+############################# social icon ############################
+[[params.social]]
+icon = "tf-ion-social-facebook"
+link = "#"
+
+[[params.social]]
+icon = "tf-ion-social-bluesky"
+link = "#"
+
+[[params.social]]
+icon = "tf-ion-social-twitter"
+link = "#"
+
+[[params.social]]
+icon = "tf-ion-social-linkedin"
+link = "#"
+
+
+################################### English language #####################################
+[languages.en]
+[languages.en.params]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/"
+weight = 1
+home = "Home"
+# footer content
+footer_content = "The developer conference where social meets technology."
+# copyright
+copyright = "Copyright &copy; 2011-2025. Redmonk."
+
+
+# ################################### French language #####################################
+# [languages.fr]
+# [languages.fr.params]
+# languageName = "Fr"
+# languageCode = "fr-fr"
+# contentDir = "content/french"
+# weight = 2
+# home = "Accueil"
+# # footer content
+# footer_content = "We are a creative-led experiential Event Production Agency that helps brands connect, engage and evolve."
+# # copyright
+# copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
