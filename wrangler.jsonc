@@ -1,0 +1,10 @@
+{
+  "name": "monktoberfest",
+  "compatibility_date": "2025-08-19",
+  "build": {
+    "command": "hugo --gc --minify"
+  },
+  "assets": {
+    "directory": "./public"
+  }
+}
