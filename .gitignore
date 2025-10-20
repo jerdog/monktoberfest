@@ -20,3 +20,6 @@ hugo.linux
 .DS_Store
 
 # End of https://www.toptal.com/developers/gitignore/api/hugo
+
+#Ignore vscode AI rules
+.github/instructions/codacy.instructions.md

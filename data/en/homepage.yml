@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "The developer conference where social meets technology"
   bg_image: "images/cropped-portland.jpg"
-  date_time : "October 3-4, 2025 | Portland, Maine"
+  date_time : "October 1-2, 2026 | Portland, Maine"
   button:
     enable : false
     label : "Discover more"
@@ -12,21 +12,21 @@ banner:
 ########################## timer #################################
 timer:
   enable : true
-  title : "Countdown to Monktoberfest 2025"
+  title : "Countdown to Monktoberfest 2026"
   # set timer
-  year: "2025"
+  year: "2026"
   month: "10"
-  day: "03"
+  day: "01"
   hour: "10"
 
 ############################## Event ##############################
 event:
   enable : true
-  title_outline : "2025"
+  title_outline : "2026"
   title : "The Monktoberfest"
   image_back : "images/about/h1-gallery-img-7.jpg"
   image_front : "images/about/main-home-img-1.jpg"
-  content : "The conference that was born from a <strong><a href=https://twitter.com/sogrady/statuses/38353939124461568>tweet</a></strong> is back for 2025, bringing you the best speakers, talks you will hear nowhere else and – of course – the best craft beer the world has to offer. <p>Attendees arriving the night before the conference will be treated to a special welcome event. Thursday will feature a full day of single track sessions, and at the conclusion of the day we will be gathering for our usual off-the-hook beer tasting and dinner. Join us on Friday for a half day of sessions before heading out to enjoy an autumn in lovely Portland, ME.</p>"
+  content : "The conference that was born from a <strong><a href=https://twitter.com/sogrady/statuses/38353939124461568>tweet</a></strong> is back for 2026, bringing you the best speakers, talks you will hear nowhere else and – of course – the best craft beer the world has to offer. <p>Attendees arriving the night before the conference will be treated to a special welcome event. Thursday will feature a full day of single track sessions, and at the conclusion of the day we will be gathering for our usual off-the-hook beer tasting and dinner. Join us on Friday for a half day of sessions before heading out to enjoy an autumn in lovely Portland, ME.</p>"
   button:
     enable : true
     label : "Become a Sponsor"
@@ -84,7 +84,7 @@ schedule:
 sponsor:
   enable :  true
   title_outline : "Sponsors"
-  title : "Thank you to our 2025 sponsors"
+  title : "Thank you to our 2026 sponsors"
   sponsor_group:
     ############################ sponsor group loop
     - title : "Trappist"
@@ -175,7 +175,7 @@ venue:
   enable : true
   title : "Venue location"
   image : "/images/emptyhalodaylight002.jpg"
-  date : "October 3-4, 2025"
+  date : "October 1-2, 2026"
   location : "Halo at the Point, 20 Van Aken Wy <br />Portland, ME"
   button:
     enable : true
