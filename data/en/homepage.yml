@@ -24,8 +24,10 @@ event:
   enable : true
   title_outline : "2026"
   title : "The Monktoberfest"
-  image_back : "images/about/h1-gallery-img-7.jpg"
-  image_front : "images/about/main-home-img-1.jpg"
+  # image_back : "images/2025-session.jpg"
+  # image_front : "images/2025-back-room.jpg"
+  image_back : "images/2025-session.jpg"
+  image_front : "images/2025-craft-beer.jpg"
   content : "The conference that was born from a <strong><a href=https://twitter.com/sogrady/statuses/38353939124461568>tweet</a></strong> is back for 2026, bringing you the best speakers, talks you will hear nowhere else and – of course – the best craft beer the world has to offer. <p>Attendees arriving the night before the conference will be treated to a special welcome event. Thursday will feature a full day of single track sessions, and at the conclusion of the day we will be gathering for our usual off-the-hook beer tasting and dinner. Join us on Friday for a half day of sessions before heading out to enjoy an autumn in lovely Portland, ME.</p>"
   button:
     enable : true
@@ -36,8 +38,8 @@ event:
 cta:
   enable : true
   subtitle : "Get your ticket before they're gone!"
-  title : "Meet top **digital masters** <br> & influencers in a unique **3-days** experience."
-  image : "images/banner/rev-slider-09.png"
+  title : "Don't miss out on the **conference that isn't just about tech**, where you'll keep coming back year after year for **community**."
+  image : "images/2025-session.jpg"
   button:
     enable : true
     label : "get ticket"
