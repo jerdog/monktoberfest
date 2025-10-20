@@ -9,7 +9,7 @@ tags:
 title: Announcing the First Official Monktoberfest Craft Beer Swap
 #url: /2013/07/24/monktoberfest-beer-swap/
 image: /images/blog/2013/9134495805_6f7f445bd6_c.jpg
-type: post
+sidebar: true
 ---
 
 As we do every year, all of us here at RedMonk are trying to up the epic in an effort give you something you've never seen before at the Monktoberfest. To this end, we've got a great numbers of irons in the fire, so to speak, because in the craft beer world it's never entirely clear what you'll be able to pull off.

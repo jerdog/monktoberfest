@@ -59,37 +59,37 @@ hasChildren = true
 [[menu.main]]
 parent = "Attend"
 name = "COVID Policy"
-URL = "covid-policy/"
+URL = "/attend/covid-policy/"
 weight = 1
 
 [[menu.main]]
 parent = "Attend"
 name = "Tickets"
-URL = "tickets/"
+URL = "/attend/tickets/"
 weight = 2
 
 [[menu.main]]
 parent = "Attend"
 name = "CFP"
-URL = "cfp/"
+URL = "/attend/cfp/"
 weight = 3
 
 [[menu.main]]
 parent = "Attend"
 name = "Diversity & Inclusion Policy"
-URL = "diversity-inclusion/"
+URL = "/attend/diversity-inclusion/"
 weight = 4
 
 [[menu.main]]
 parent = "Attend"
 name = "Accessibility"
-URL = "accessibility/"
+URL = "/attend/accessibility/"
 weight = 5
 
 [[menu.main]]
 parent = "Attend"
-name = "Conduct"
-URL = "code-of-conduct/"
+name = "Code of Conduct"
+URL = "/attend/conduct/"
 weight = 6
 
 [[menu.main]]

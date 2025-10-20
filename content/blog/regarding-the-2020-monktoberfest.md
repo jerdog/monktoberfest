@@ -6,7 +6,7 @@ date: "2020-06-16T20:26:37+00:00"
 title: Regarding the 2020 Monktoberfest
 image: /images/blog/2020/img_20181004_092944.jpg
 #url: /2020/06/16/regarding-the-2020-monktoberfest/
-type: post
+sidebar: true
 ---
 
 On March 11, 2020, the NBA suspended its season due to the outbreak, and things began to [move quickly](https://twitter.com/sogrady/status/1237918948022202368). Its impact on tech was immediate. Within days, large tech industry conferences were postponed or cancelled one after another, employers began to issue travel restrictions and ultimately, in response to local lockdowns, the largest work-from-home experiment in history began.

@@ -7,7 +7,7 @@ image : "images/blog/agenda-top-secret.jpg"
 author: sogrady
 categories: ["Event", "Monktoberfest", "Agenda"]
 tags: ["Agenda", "Monktoberfest"]
-type: post
+sidebar: true
 ---
 
 Every so often, we get this question from would be Monktoberfest attendees: where’s the agenda? It’s understandable, because most conferences make that available well ahead of time. Some, in fact, require you to book slots at individual talks months in advance of the actual event. The agenda for the Monktoberfest is, however, not made available. Our agenda is posted to Lanyrd instead hours before the event, which begs the question: why? Why not make the agenda publicly available? Isn’t that an important piece of information for those considering attending?

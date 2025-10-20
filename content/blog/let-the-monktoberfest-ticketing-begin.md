@@ -7,7 +7,7 @@ draft: true
 title: "Let the Monktoberfest Ticketing Begin (2011)!"
 #url: /
 image: /images/blog/2011/OpenShift_logo.jpg
-type: post
+sidebar: true
 ---
 Brothers and Sisters,
 

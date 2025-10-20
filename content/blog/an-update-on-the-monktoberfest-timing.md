@@ -6,7 +6,7 @@ date: "2015-03-16T18:55:33+00:00"
 title: An Update on the Monktoberfest Timing
 image: /images/blog/2015/calendar-dafneCholet.jpg
 #url: /2015/03/16/an-update-on-the-monktoberfest-timing/
-type: post
+sidebar: true
 ---
 
 As anyone who attends or organizes conferences is aware, it is no longer possible to pick a date - any date - and expect to be free of conflicts. We have lived this with the Monktoberfest over the years, having overlapped with a variety of conferences large and small.
