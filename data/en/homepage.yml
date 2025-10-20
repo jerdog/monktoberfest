@@ -86,7 +86,7 @@ schedule:
 sponsor:
   enable :  true
   title_outline : "Sponsors"
-  title : "Thank you to our 2026 sponsors"
+  title : "Thank you to our 2025 sponsors"
   sponsor_group:
     ############################ sponsor group loop
     - title : "Trappist"
