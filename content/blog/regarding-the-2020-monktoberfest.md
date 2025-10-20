@@ -1,22 +1,12 @@
 ---
-_last_editor_used_jetpack: block-editor
-_publicize_job_id: "45523551395"
-_rest_api_client_id: "-1"
-_rest_api_published: "1"
 author: sogrady
 categories:
   - news
 date: "2020-06-16T20:26:37+00:00"
-guid: http://monktoberfest.com/?p=1194
-parent_post_id: null
-post_id: "1194"
-timeline_notification: "1592339201"
 title: Regarding the 2020 Monktoberfest
-image: /images/blog/img_20181004_092944.jpg
+image: /images/blog/2020/img_20181004_092944.jpg
 #url: /2020/06/16/regarding-the-2020-monktoberfest/
-
 ---
-<!-- ![IMG_20181004_092944](/wp-content/uploads/2020/06/img_20181004_092944.jpg) -->
 
 On March 11, 2020, the NBA suspended its season due to the outbreak, and things began to [move quickly](https://twitter.com/sogrady/status/1237918948022202368). Its impact on tech was immediate. Within days, large tech industry conferences were postponed or cancelled one after another, employers began to issue travel restrictions and ultimately, in response to local lockdowns, the largest work-from-home experiment in history began.
 
