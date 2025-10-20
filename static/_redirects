@@ -1,3 +1,8 @@
 # Ref: https://developers.cloudflare.com/pages/configuration/redirects/
 # Syntax (one redirect per line): [source] [destination] [code?]
-/2020/06/16/regarding-the-2020-monktoberfest /blog/regarding-the-2020-monktoberfest 302
+/2020/06/16/regarding-the-2020-monktoberfest/ /blog/regarding-the-2020-monktoberfest/ 302
+/2013/07/24/monktoberfest-beer-swap/ /blog/monktoberfest-beer-swap/ 302
+/2020/04/07/monktoberfest-2020/ /blog/monktoberfest-2020/ 302
+/2011/07/11/let-the-monktoberfest-ticketing-begin/ /blog/let-the-2011-monktoberfest-ticketing-begin/ 302
+/2015/03/16/an-update-on-the-monktoberfest-timing/ /blog/an-update-on-the-monktoberfest-timing/ 302
+/2015/07/14/why-the-monktoberfest-agenda-is-not-disclosed/ /blog/why-the-monktoberfest-agenda-is-not-disclosed/ 302
