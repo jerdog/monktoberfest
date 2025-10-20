@@ -39,7 +39,7 @@ cta:
   enable : true
   subtitle : "Get your ticket before they're gone!"
   title : "Don't miss out on the **conference that isn't just about tech**, where you'll keep coming back year after year for **community**."
-  image : "images/2025-session.jpg"
+  image : "images/2025-back-room.jpg"
   button:
     enable : true
     label : "get ticket"
@@ -151,9 +151,6 @@ sponsor:
         # sponsor loop
         - logo : "/images/sponsors/cncf-logo.webp"
           link : "https://www.cncf.io/"
-
-    - title : "Coffee"
-      sponsor:
         # sponsor loop
         - logo : "/images/sponsors/heroku-logo.webp"
           link : "https://heroku.com"
@@ -189,5 +186,5 @@ blog:
   enable : true
   title_outline : "News"
   title : "Latest News"
-  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  content : "Catch up on the latest news and announcements about Monktoberfest."
   # blog content comes from "content/blog" folder
