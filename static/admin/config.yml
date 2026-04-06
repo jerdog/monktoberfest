@@ -1,0 +1,82 @@
+## Decap CMS Configuration File
+## For more information, see https://decapcms.org/docs/configuration-options/
+site_url: "https://monktoberfest.jerdog.workers.dev/"
+display_url: "https://monktoberfest.jerdog.workers.dev/"
+backend:  # https://decapcms.org/docs/configuration-options/#backend, https://decapcms.org/docs/backends-overview/
+  name: github
+  repo: "jerdog/monktoberfest"
+  branch: "main"
+  site_domain: "monktoberfest.jerdog.workers.dev"
+  cms_label_prefix: "decap-cms/"
+  commit_messages:
+    create: "Create {{collection}} «{{slug}}»"
+    update: "Update {{collection}} «{{slug}}»"
+    delete: "Delete {{collection}} «{{slug}}»"
+    uploadMedia: "Upload «{{path}}»"
+    deleteMedia: "Delete «{{path}}»"
+    openAuthoring: '{{message}}'
+logo:
+  src: "https://monktoberfest.jerdog.workers.dev/images/logo.webp"
+  show_in_header: true
+publish_mode: editorial_workflow  # https://decapcms.org/docs/configuration-options/#publish-mode
+media_folder: "static/uploads"  # Folder where uploaded media files will be stored
+# media_library:  # https://decapcms.org/docs/configuration-options/#media-library
+#   name: "local"
+#   config:
+#     publicKey: "your-public-key-here"  # Replace with your actual public key
+#     media_folder: "static/uploads"  # Folder where uploaded media files will be stored
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+collections:  # https://decapcms.org/docs/configuration-options/#collections
+  - name: "posts"
+    identifier_field: "title"
+    label: "Blog Posts"
+    description: "Blog posts for Monktoberfest"
+    folder: "content/blog"
+    create: true
+    delete: false
+    slug: "{{slug}}"
+    fields:     # https://decapcms.org/docs/widgets/
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - { label: "Author", name: "author", widget: "string", required: true }
+      - { label: "Date", name: "date", widget: "datetime", required: true }
+      - { label: "Body", name: "body", widget: "markdown", required: true }
+      - { label: "Image", name: "image", widget: "image", choose_url: true, media_library: { config: { multiple: true, max_file_size: 512000 } } }
+    sortable_fields: ["date", "title"]
+  - name: "attendee pages"
+    identifier_field: "title"
+    label: "Attendee Pages"
+    description: "Static pages for Monktoberfest"
+    folder: "content/attend"
+    create: true
+    delete: false
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - { label: "Body", name: "body", widget: "markdown", required: true }
+      - { label: "Image", name: "image", widget: "image", choose_url: true, media_library: { config: { multiple: true, max_file_size: 512000 } } }
+  - name: "individual pages"
+    identifier_field: "title"
+    label: "Individual Pages"
+    description: "Single pages for Monktoberfest"
+    files:
+      - label: "FAQs"
+        name: "faq"
+        file: "data/en/faq.yml"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: true }
+          - { label: "Body", name: "body", widget: "markdown", required: true }
+  # - name: "Data Files"
+  #   label: "Data Files"
+  #   description: "Various data files for Monktoberfest"
+  #   folder: "data/en"
+  #   extension: "yml"
+  #   format: "yaml-frontmatter"
+  #   create: false
+  #   delete: false
+  #   fields:
+  #     - { label: "File Name", name: "file_name", widget: "string", required: true }
+  #     - { label: "Title", name: "faq_item", widget: "string", required: true }
+
