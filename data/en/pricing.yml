@@ -1,13 +1,13 @@
 ################################# timer ############################
 timer:
-  enable : true
+  enable : false
   title : "**Count the day** <br>until conference start"
   content : "Our intensive 2-day business conferences will teach you the specific steps and proven systems you need to implement and grow your business. We hope you’ll join us!"
   # timer value comes from "homepage.yml" file
 
 ################################# Pricing ##########################
 pricing:
-  enable : true
+  enable : false
   title_outline : "Price"
   title : "Get your Ticket"
   content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
@@ -28,7 +28,7 @@ pricing:
       button:
         label : "Get now"
         link : "#"
-        
+
     # pricing table loop
     - title : "Team"
       style : "2"
@@ -46,7 +46,7 @@ pricing:
       button:
         label : "Get now"
         link : "#"
-        
+
     # pricing table loop
     - title : "Economic"
       style : "3"
@@ -65,7 +65,7 @@ pricing:
       button:
         label : "Get now"
         link : "#"
-        
+
 ############################## Event ##############################
 event:
   enable : true
