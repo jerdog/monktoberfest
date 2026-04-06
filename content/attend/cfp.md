@@ -5,7 +5,7 @@ draft: false
 image: ""
 author: ""
 sidebar: false
-slug: "attend/cfp/"
+#slug: "attend/cfp/"
 ---
 
 Interested in speaking at Monktoberfest? The [call for proposals](https://docs.google.com/forms/d/e/1FAIpQLSdfUg-AxEQJcf5qCj0WNGahkoYLBMChOo9_DGCTrQwlSt0T2A/viewform?formkey=dFJuRTRWNVRkSUhpcFhDR0lKb3htZ2c6MQ) is open.
