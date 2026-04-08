@@ -1,21 +1,18 @@
 ---
-title: "5 Creative Ideas for Conference Sessions"
-date: 2019-09-10T13:51:25+06:00
+title: 5 Creative Ideas for Conference Sessions
+date: 2019-09-10T07:51:25.000Z
 draft: false
-description: "this is meta description"
-# page title backgrount image
-bg_image : "images/bg/cta-bg.jpg"
-# post thumb
-image : "images/blog/blog-2.jpg"
-# author
-author: "John Doe"
-# Taxonomies
-categories: ["Lifestyle"]
-tags: ["Music", "Agency"]
-# type
-type: "post"
+description: this is meta description
+bg_image: images/bg/cta-bg.jpg
+image: images/blog/blog-2.jpg
+author: John Doe
+categories:
+  - Lifestyle
+tags:
+  - Music
+  - Agency
+type: post
 ---
-
 At first glance, the 31-year-old, with her Instagram following of 300 000, may give the
 impression of being just another modest influencer, posing in brands like Dulce by Safiya, Culture
 Hijab, and Hayah Collection.
@@ -31,7 +28,6 @@ the impression of being just another modest influencer, posing in brands like Du
 Hijab, and Hayah Collection. Then you play one of her videos, and she starts rapping about everything
 from political and social injustices to women’s rights.
 
-
 > A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going to move is quite dictated by your shoes.
 
 With exposure comes the responsibility and added pressure of being a role model, which is something
@@ -45,4 +41,4 @@ of the patriarchal gaze. I’d rather offer something relatable than something u
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto
 cupiditate eius fuga fugit illum ipsa itaque maxime, molestias odio praesentium
-quaerat, quam soluta tempora tempore veniam veritatis! Sequi, similique?
+quaerat, quam soluta tempora tempore veniam veritatis! Sequi.
