@@ -1,5 +1,5 @@
 ---
-title: "Diversity Inclusion"
+title: "Diversity & Inclusion"
 date: 2025-10-20T13:30:27-05:00
 draft: false
 image: ""
