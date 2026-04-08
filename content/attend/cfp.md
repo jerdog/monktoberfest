@@ -1,10 +1,11 @@
 ---
-title: "Cfp"
-date: 2025-10-20T13:30:54-05:00
+title: "CFP"
+date: 2025-10-20T18:30:54.000Z
 draft: false
 image: ""
 author: ""
 sidebar: false
+
 #slug: "attend/cfp/"
 ---
 
