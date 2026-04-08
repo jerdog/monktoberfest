@@ -5,6 +5,7 @@ draft: false
 image: ""
 author: ""
 sidebar: false
+breadcrumb: false
 ---
 
 As the organizers of the event, we want to make sure that everyone knows what to expect with respect to COVID, our related preparations, and our ability to hold the event.

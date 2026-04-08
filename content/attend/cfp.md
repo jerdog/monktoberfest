@@ -2,9 +2,10 @@
 title: "CFP"
 date: 2025-10-20T18:30:54.000Z
 draft: false
-#image: ""
+image: ""
 author: ""
 sidebar: false
+breadcrumb: false
 
 #slug: "attend/cfp/"
 ---

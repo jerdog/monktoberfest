@@ -5,6 +5,7 @@ draft: false
 image: ""
 author: ""
 sidebar: false
+breadcrumb: false
 ---
 
 [**Applications for the 2025 Monktoberfest are OPEN**!](https://docs.google.com/forms/d/e/1FAIpQLSf104xmsWIfLwMrmOxSeToeIihgg9UnC8eHxSoJvdXfwWirvg/viewform)

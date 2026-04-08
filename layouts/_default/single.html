@@ -2,13 +2,14 @@
 
 <section class="blog section">
   <div class="container">
-    <!-- Check if sidebar is disabled, and extend the content width accordingly -->
+    {{/*  <!-- Check if sidebar is disabled, and extend the content width accordingly -->
     {{ if eq .Params.sidebar false }}
     <div class="row-full">
       <div class="col-md-12 col-lg-12 pr-lg-5">
-    {{ else }}<div class="row">
+    {{ else }}  */}}
+    <div class="row">
       <div class="col-lg-8 pr-lg-5">
-    {{ end }}
+    {{/*  {{ end }}  */}}
         <div class="row">
           <div class="col-md-12">
             <article class="post">
@@ -22,11 +23,14 @@
                   </div>
                 </div>
                 <!-- tags and share end-->
-                <h2>{{ .Title | markdownify }}</h2>
+                {{/*  Removed as it's redundant with the Page.Title from /layouts/partials/page-title.html  */}}
+                {{/*  <h2>{{ .Title | markdownify }}</h2>  */}}
               </div>
 
               <div class="single-post-thumbnail my-4">
-                <img class="img-fluid w-100" src="{{ .Params.Image | absURL }}" alt="{{ .Title | markdownify }}" />
+                {{ if .Params.Image }}
+                  <img class="img-fluid w-100" src="{{ .Params.Image | absURL }}" alt="{{ .Title | markdownify }}" />
+                {{ end }}
               </div>
 
               <div class="post-blog">

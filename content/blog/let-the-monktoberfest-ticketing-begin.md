@@ -8,6 +8,7 @@ title: "Let the Monktoberfest Ticketing Begin (2011)!"
 #url: /
 image: /images/blog/2011/OpenShift_logo.jpg
 sidebar: true
+breadcrumb: false
 ---
 Brothers and Sisters,
 

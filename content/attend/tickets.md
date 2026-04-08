@@ -5,6 +5,7 @@ draft: false
 image: ""
 author: ""
 sidebar: false
+breadcrumb: false
 ---
 
 [Tickets on sale now!](https://ti.to/monktoberfest/2025)
