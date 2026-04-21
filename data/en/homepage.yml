@@ -173,7 +173,7 @@ sponsor:
 venue:
   enable : true
   title : "Venue location"
-  image : "/images/allagashgreatroom.jpg"
+  image : "images/allagashgreatroom.jpg"
   date : "October 1-2, 2026"
   location : "ALLAGASH BREWING COMPANY, 50 Industrial Wy <br />Portland, ME"
   button:
