@@ -11,17 +11,19 @@ RedMonk is committed to providing an inclusive environment, and we will do our b
 
 ### What is the conference space like?
 
-The venue is fully ADA‑compliant. The entrance is street‑level with no steps or ramps required—great for wheelchair users or anyone with mobility needs.
+The 2026 event is being held at Allagash Brewing Company, a fully ADA‑compliant venue. Both spaces — the Great Room and the Cellars — feature ramps, wide double-door entrances, and ADA‑accessible restrooms.
 
-With 6,800 sq ft of open space, the room is configured for seated presentations and mixed standing/social.
+Presentations will take place in the Great Room, a 2,450 sq ft space set up with seating for attendees. For lunch, we'll move to the Cellars — Allagash's bar and barrel room — which spans 5,110 sq ft and includes restrooms and additional amenities.
 
 ### How much walking or standing is needed?
 
-Halo on the Point is an open-concept space. Typically, guests stand or walk around, and there are chairs set up around the presentation space.
+The day begins in the Great Room, where breakfast and snacks will be available at countertop stations, with plenty of seating throughout. Ample on-site parking is located right next to the building, and restrooms are just down the corridor to the left.
 
-As a single-track conference, there is no need to relocate once you've entered the venue. Lunch is served in the same room, and we explicitly design the day to include plenty of breaks so attendees can eat, mingle and chat.
+At lunch, the group will make a short walk over to the Cellars, where our caterers and Allagash will be serving food and drinks — with plenty of non-alcoholic options available as well. Weather permitting, an attached patio offers a great spot to step outside and enjoy your meal.
 
-Both the welcome event and dinner are designed for interaction and mingling, but there are chairs and tables readily available in both venues.
+After lunch, we'll head back to the Great Room for the afternoon sessions, and return there again to kick off day two.
+
+While the event is designed to encourage conversation and connection, seating and tables are readily available in both spaces throughout the day.
 
 ### What are the arrangements for presenters?
 
@@ -37,7 +39,7 @@ In addition, we will have live captioning at the event to visually transcribe th
 
 ### What are the restroom facilities like?
 
-The restrooms are located directly outside the main room. They are stalled restrooms with handicapped accommodations.
+The Great Room restrooms are down the hall to the left of the presenter, and the bathrooms at The Cellars are attached to the bar area. Both restrooms are ADA-accessable.
 
 ### Will the conference accommodate special dietary needs?
 

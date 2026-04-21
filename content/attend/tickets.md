@@ -7,7 +7,7 @@ author: ""
 sidebar: false
 ---
 
-[Tickets on sale now!](https://ti.to/monktoberfest/2025)
+[2026 Tickets Available Soon]
 
 * * *
 
