@@ -175,11 +175,11 @@ venue:
   title : "Venue location"
   image : "/images/emptyhalodaylight002.jpg"
   date : "October 1-2, 2026"
-  location : "Halo at the Point, 20 Van Aken Wy <br />Portland, ME"
+  location : "ALLAGASH BREWING COMPANY, 50 Industrial Wy <br />Portland, ME"
   button:
     enable : true
     label : "View Map location"
-    link : "https://maps.app.goo.gl/YaPCH3pfeuYtCv468"
+    link : "https://maps.app.goo.gl/Q4UWQQSqkSBUW3Uc9"
 
 ############################### Blog ######################################
 blog:
