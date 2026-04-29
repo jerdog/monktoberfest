@@ -43,7 +43,7 @@ cta:
   button:
     enable : true
     label : "get ticket"
-    link : "pricing"
+    link : "https://ti.to/monktoberfest/2025"
 
 ############################# Feature ###########################
 # feature:

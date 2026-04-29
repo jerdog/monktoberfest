@@ -5,6 +5,7 @@ draft: false
 image: ""
 author: ""
 sidebar: false
+breadcrumb: false
 ---
 
 RedMonk is committed to providing an inclusive environment, and we will do our best to meet the needs of all our attendees and speakers. This page describes some of the accessibility considerations we have taken into account for Monktoberfest. Please contact us if your question is not answered here, or if the arrangements as described are not sufficient for your needs. We will work with you to the best of our ability to make the conference accessible.

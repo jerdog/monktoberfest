@@ -1,13 +1,12 @@
 ---
-title: "Code of Conduct"
+title: "Monktoberfest Code of Conduct"
 date: 2025-10-20T13:30:40-05:00
 draft: false
 image: ""
 author: ""
 sidebar: false
+breadcrumb: false
 ---
-
-# Monktoberfest Code of Conduct
 
 RedMonk is committed to providing a welcoming and inspiring community for all Monktoberfest participants, including but not limited to attendees, sponsors, vendors, guests, and employees (collectively referred to as “participants”). To help us meet this goal, we’ve created the following code of conduct that outlines our expectations for Monktoberfest participants and we expect it to be honored. Anyone who violates the code of conduct may be asked to leave and/or banned from participating in future Monktoberfest and other RedMonk events. This code of conduct also includes how to report unacceptable behavior. We encourage anyone who experiences or witnesses unacceptable behavior to follow the reporting steps. We can only address those issues that are brought to our attention. Although this code is not exhaustive or complete, it serves to distill our common understanding of a collaborative, shared environment, and goals. We expect it to be followed in spirit as much as in the letter. While at the Monktoberfest, we expect participants to:
 

@@ -8,6 +8,10 @@ body {
     color: white;
 }
 
+.section {
+    padding: 50px 0 0 0;
+}
+
 .section-banner .banner-content h1 {
     font-size: 4rem;
     color: white;
@@ -104,5 +108,17 @@ a {
 }
 
 .container .row-full {
+    max-width: 100%;
+}
+
+.container .pr-lg-5 {
+    padding-right: 2rem !important;
+}
+
+.container .row {
+    justify-content: center;
+}
+
+.page-header .container {
     max-width: 100%;
 }

@@ -1,10 +1,11 @@
 ---
-title: "Diversity Inclusion"
+title: "Diversity & Inclusion"
 date: 2025-10-20T13:30:27-05:00
 draft: false
 image: ""
 author: ""
 sidebar: false
+breadcrumb: false
 ---
 
 [**Applications for 2026 are currently closed. Check back soon**!](https://docs.google.com/forms/d/e/1FAIpQLSf104xmsWIfLwMrmOxSeToeIihgg9UnC8eHxSoJvdXfwWirvg/viewform)

@@ -1,11 +1,11 @@
 ######################## default configuration ####################
-baseURL = "https://monktoberfest.jerdog.workers.dev"
+baseURL = "/"
 title = "The Monktoberfest"
 theme = "vixcon-hugo"
 # post pagination
 pagination.pagerSize = 4
 # post excerpt
-summaryLength = "25"
+summaryLength = 25
 # disable language
 disableLanguages = [] # disable language from here
 
@@ -14,15 +14,16 @@ disableLanguages = [] # disable language from here
 [services.googleAnalytics]
 ID = 'G-MEASUREMENT_ID' # see https://gohugo.io/templates/internal/#configure-google-analytics
 
-# [services.disqus]
-# shortname = 'themefisher-template' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
-
 # output
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
 [markup.goldmark.renderer]
 unsafe = true
+[markup.goldmark.renderHooks.image]
+useEmbedded = 'always'
+[markup.goldmark.renderHooks.link]
+useEmbedded = 'always'
 
 ############################# Plugins ##############################
 # CSS Plugins
