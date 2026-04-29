@@ -1,46 +1,46 @@
 ---
 author: rachelstephens
-date: "2018-04-10T20:21:55+00:00"
+date: "2016-04-10T20:21:55+00:00"
 geo_public: "0"
 guid: http://monktoberfest.com/?page_id=917
 parent_post_id: "906"
 post_id: "917"
-title: "2015"
+title: "Speakers from 2015"
 url: /program/2015-speakers/
 ---
 
-### Justin Sheehy – [Just Another Privileged Imposter](https://redmonk.com/videos/just-another-privileged-imposter-justin-sheehy/)
+### Justin Sheehy – [Just Another Privileged Imposter]
 
-{{< youtube V\_1SOe\_RXy0 >}}
+{{< youtube "V_1SOe_RXy0" >}}
 
-### Rafe Colburn – [Management is Not About Sorting Apples](https://redmonk.com/videos/management-is-not-about-sorting-apples/)
+### Rafe Colburn – [Management is Not About Sorting Apples]
 
-{{< youtube yNblqO2-vz4 >}}&list=PLvsKqlNNP3R81gUh92mip5cAxe1iHEuYs&index=3
+{{< youtube "yNblqO2-vz4" >}}
 
-### Peter Busque – [Hops: The Best Flower](https://redmonk.com/videos/hops-the-best-flower/)
+### Peter Busque – [Hops: The Best Flower]
 
 {{< youtube ALUy-oa8Hsk >}}
 
-### Laura Ku – [Building a Volunteer Legion for a Diversity Initiative](https://redmonk.com/videos/building-a-volunteer-legion-for-a-diversity-initiative/)
+### Laura Ku – [Building a Volunteer Legion for a Diversity Initiative]
 
 {{< youtube GwjM1I6Z5-Y >}}
 
-### Owen Zanzal – [HomebrewOps: Adding Automation and Control to the Hobby of Homebrewing](https://redmonk.com/videos/homebrewops-adding-automation-and-control-to-the-hobby-of-homebrewing/)
+### Owen Zanzal – [HomebrewOps: Adding Automation and Control to the Hobby of Homebrewing]
 
-{{< youtube \_ygGfjPo40Q >}}
+{{< youtube "_ygGfjPo40Q" >}}
 
-### Samantha Ready – [Recipe for Change: 5 Ingredients to Get Ideas to Stick](https://redmonk.com/videos/recipe-for-change-5-ingredients-to-get-ideas-to-stick/)
+### Samantha Ready – [Recipe for Change: 5 Ingredients to Get Ideas to Stick]
 
 {{< youtube yi1eyQ-jEws >}}
 
-### Brady Murray – [12 Outrageous Slides that Perfectly Capture the Current State of Social Networks](https://redmonk.com/videos/12-outrageous-slides-that-perfectly-capture-the-current-state-of-social-networks/)
+### Brady Murray – [12 Outrageous Slides that Perfectly Capture the Current State of Social Networks]
 
-{{< youtube -wahxf4mohY >}}
+{{< youtube "-wahxf4mohY" >}}
 
-### KellyAnn Fitzpatrick – [Dungeons and Towers Medievalism, Gaming, and the Academy](https://redmonk.com/videos/dungeons-and-towers-medievalism-gaming-and-the-academy/)
+### KellyAnn Fitzpatrick – [Dungeons and Towers Medievalism, Gaming, and the Academy]
 
-{{< youtube LsMjwxQo21o >}}&t=10s
+{{< youtube "LsMjwxQo21o" >}}
 
-### Luis Villa – https://redmonk.com/videos/dont-try-this-at-home-lessons-from-very-open-platforms/
+### Luis Villa – [Don't Try This At Home: Lessons from Very Open Platforms]
 
-{{< youtube -1ZuO-E6k4k >}}
+{{< youtube "-1ZuO-E6k4k" >}}

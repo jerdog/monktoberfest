@@ -1,11 +1,11 @@
 ---
 author: rachelstephens
-date: "2018-04-10T21:19:06+00:00"
+date: "2011-11-10T21:19:06+00:00"
 geo_public: "0"
 guid: http://monktoberfest.com/?page_id=925
 parent_post_id: "906"
 post_id: "925"
-title: "2011"
+title: "Speakers from 2011"
 url: /program/2011-speakers/
 ---
 
@@ -13,24 +13,24 @@ Though we didn't capture video of the Monktoberfest sessions in the initial year
 
 ### Mike Olson, Cloudera
 
-\[youtube {{< youtube -o1C265\_h0M >}}&w=560&h=315\]
+{{< youtube "-o1C265_h0M" >}}
 
 ### Greg Avola, Untappd
 
-\[youtube {{< youtube ASwsj2wHA6U >}}&w=560&h=315\]
+{{< youtube ASwsj2wHA6U >}}
 
 ### Matt Lemay, Bit.ly
 
-\[youtube {{< youtube iRnamrkGeoM >}}&w=560&h=315\]
+{{< youtube iRnamrkGeoM >}}
 
 ### Zack Urlocker, Zendesk
 
-\[youtube {{< youtube 0KQ5KUArDvo >}}&w=560&h=315\]
+{{< youtube 0KQ5KUArDvo >}}
 
 ### Steve Citron-Pousty, deCarta
 
-\[youtube {{< youtube 1JBW1UPhKyA >}}&w=560&h=315\]
+{{< youtube 1JBW1UPhKyA >}}
 
 ### Donnie Berkholz
 
-\[youtube {{< youtube sFVj\_cMiMKg >}}&w=560&h=315\]
+{{< youtube sFVjcMiMKg >}}

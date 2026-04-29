@@ -94,8 +94,20 @@ weight = 6
 
 [[menu.main]]
 name = "Program"
-URL = "#schedule"
 weight = 3
+hasChildren = true
+
+[[menu.main]]
+parent = "Program"
+name = "Agenda"
+URL = "#schedule"
+weight = 1
+
+[[menu.main]]
+parent = "Program"
+name = "Previous Years"
+URL = "/program/previous-years/"
+weight = 2
 
 [[menu.main]]
 weight = 4
@@ -116,9 +128,9 @@ hasChildren = true
 
 [[menu.main]]
 parent = "Travel"
-name = "Venues"
+name = "Venue"
 weight = 1
-URL = "venues/"
+URL = "#venue"
 
 [[menu.main]]
 parent = "Travel"

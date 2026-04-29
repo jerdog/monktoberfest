@@ -9,38 +9,38 @@ jetpack_seo_noindex: ""
 parent_post_id: "906"
 post_id: "1668"
 reader_suggested_tags: ""
-title: "2024"
+title: "Speakers from 2024"
 url: /program/2024-speakers/
 ---
 
 ### Amanda Casari & Julia Ferriaoli – Agree to Disagree
 
-{{< youtube rnLGyFR4aIY >}}&list=PLvsKqlNNP3R8JKE97pwewsDmZdcO5MEWV&index=2
+{{< youtube rnLGyFR4aIY >}}
 
 ### Christopher Neugebauer – An Obvious Statement About Open Source
 
-{{< youtube bf\_6EVTlZOY >}}&list=PLvsKqlNNP3R8JKE97pwewsDmZdcO5MEWV&index=3
+{{< youtube "bf_6EVTlZOY" >}}
 
 ### Carol Lee - Code Review Anxiety
 
-{{< youtube LOW0ZZsh1BE >}}&list=PLvsKqlNNP3R8JKE97pwewsDmZdcO5MEWV&index=4
+{{< youtube "LOW0ZZsh1BE" >}}
 
 ### David Smith - Death and Grief
 
-{{< youtube stMEuZJJDck >}}&list=PLvsKqlNNP3R8JKE97pwewsDmZdcO5MEWV&index=4&pp=iAQB&pbjreload=102
+{{< youtube "stMEuZJJDck" >}}
 
 ### Eamon Ryan - Top of the Mourning To You
 
-{{< youtube 4W8\_14wK2Tg >}}&list=PLvsKqlNNP3R8JKE97pwewsDmZdcO5MEWV&index=6
+{{< youtube "4W8_14wK2Tg" >}}
 
 ### George Lemmon - Let the Robots Do It
 
-{{< youtube Usti6olKt\_c >}}&list=PLvsKqlNNP3R8JKE97pwewsDmZdcO5MEWV&index=7
+{{< youtube "Usti6olKt_c" >}}
 
 ### Jenny Zhang - The Values of Work
 
-{{< youtube uW1G1WCcXsk >}}&list=PLvsKqlNNP3R8JKE97pwewsDmZdcO5MEWV&index=8
+{{< youtube "uW1G1WCcXsk" >}}
 
 ### Ashley Williams - 2 Wolves
 
-{{< youtube gR2hjbh0RUk >}}&list=PLvsKqlNNP3R8JKE97pwewsDmZdcO5MEWV&index=9
+{{< youtube "gR2hjbh0RUk" >}}
