@@ -1,6 +1,7 @@
 {
   "name": "monktoberfest",
-  "compatibility_date": "2025-08-19",
+  "compatibility_date": "2026-04-29",
+  "compatibility_flags": ["nodejs_compat"],
   "build": {
     "command": "hugo --gc --minify"
   },
