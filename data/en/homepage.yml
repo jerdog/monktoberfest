@@ -86,81 +86,81 @@ schedule:
 sponsor:
   enable :  true
   title_outline : "Sponsors"
-  title : "Thank you to our 2025 sponsors"
+  title : "Thank you to our 2026 sponsors"
   sponsor_group:
     ############################ sponsor group loop
     - title : "Trappist"
       sponsor:
         # sponsor loop
-        - logo : "/images/sponsors/1024px-aws_logo.png"
-          link : "https://aws.amazon.com/"
+        - logo : ""
+          link : ""
 
     ############################ sponsor group loop
     - title : "Abbot"
       sponsor:
         # sponsor loop
-        - logo : "/images/sponsors/ibm-logo.png"
-          link : "https://ibm.com"
+        - logo : ""
+          link : ""
 
         # sponsor loop
-        - logo : "/images/sponsors/google-logo.webp"
-          link : "https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header"
+        - logo : ""
+          link : ""
 
         # sponsor loop
-        - logo : "/images/sponsors/heroku-logo.webp"
-          link : "https://heroku.com"
+        - logo : ""
+          link : ""
 
     ############################ sponsor group loop
     - title : "Diversity and Inclusion"
       sponsor:
         # sponsor loop
-        - logo : "/images/sponsors/mongodb-logo.png"
-          link : "https://mongodb.com"
+        - logo : ""
+          link : ""
 
     ############################ sponsor group loop
-    - title : "Conference Dinner"
+    - title : ""
       sponsor:
         # sponsor loop
-        - logo : "/images/sponsors/redhat-logo.png"
-          link : "https://www.redhat.com/en"
+        - logo : ""
+          link : ""
 
     ############################ sponsor group loop
     - title : "Beer Glasses"
       sponsor:
         # sponsor loop
-        - logo : "/images/sponsors/oracle-logo.webp"
-          link : "https://www.oracle.com/"
+        - logo : ""
+          link : ""
 
     ############################ sponsor group loop
     - title : "Lunch"
       sponsor:
         # sponsor loop
-        - logo : "/images/sponsors/dynatrace-logo.webp"
-          link : "https://www.dynatrace.com/"
+        - logo : ""
+          link : ""
 
     ############################ sponsor group loop
     - title : "Dinner Cruise"
       sponsor:
         # sponsor loop
-        - logo : "/images/sponsors/dynatrace-logo.webp"
-          link : "https://www.dynatrace.com/"
+        - logo : ""
+          link : ""
 
     ############################ sponsor group loop
     - title : "Coffee"
       sponsor:
         # sponsor loop
-        - logo : "/images/sponsors/cncf-logo.webp"
-          link : "https://www.cncf.io/"
+        - logo : ""
+          link : ""
         # sponsor loop
-        - logo : "/images/sponsors/heroku-logo.webp"
-          link : "https://heroku.com"
+        - logo : ""
+          link : ""
 
     ############################ sponsor group loop
     - title : "Breakfast"
       sponsor:
         # sponsor loop
-        - logo : "/images/sponsors/findhelp-logo.webp"
-          link : "https://www.findhelp.org/"
+        - logo : ""
+          link : ""
 
   # call to action in sponsor
   sponsorship:
