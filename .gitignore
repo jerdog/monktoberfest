@@ -4,7 +4,7 @@
 ### Hugo ###
 # Generated files by hugo
 /public/
-/resources/_gen/
+/resources/
 /assets/jsconfig.json
 hugo_stats.json
 
@@ -18,8 +18,11 @@ hugo.linux
 
 # Misc
 .DS_Store
+.wrangler/
+
 
 # End of https://www.toptal.com/developers/gitignore/api/hugo
 
 #Ignore vscode AI rules
 .github/instructions/codacy.instructions.md
+

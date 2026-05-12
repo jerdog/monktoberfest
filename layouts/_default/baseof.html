@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{- partial "head.html" . -}}
+
+<body>
+	{{- partial "preloader.html" . -}}
+	{{- partial "header.html" . -}}
+	{{ if not .IsHome }}
+	{{ partial "page-title.html" . }}
+	{{ end }}
+	{{- block "main" . }}{{- end }}
+	{{- partial "footer.html" . -}}
+
+	<button type="button" class="back-to-top" id="back-to-top" aria-label="Return to top" tabindex="-1" aria-hidden="true">
+		<svg class="back-to-top__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+			<path fill="currentColor" d="M12 5.5L4 16h4.5v6h7V16H20L12 5.5z" />
+		</svg>
+	</button>
+	<script>
+	(function () {
+		var btn = document.getElementById('back-to-top');
+		if (!btn) return;
+
+		function fold() {
+			return window.innerHeight || document.documentElement.clientHeight || 600;
+		}
+
+		// With html/body height:100% (theme), the document often scrolls on BODY while
+		// window.scrollY and document.scrollingElement (html) stay 0. Use the max of all.
+		function scrollY() {
+			return Math.max(
+				window.scrollY || 0,
+				window.pageYOffset || 0,
+				document.documentElement.scrollTop || 0,
+				document.body.scrollTop || 0,
+				(document.scrollingElement && document.scrollingElement.scrollTop) || 0
+			);
+		}
+
+		function sync() {
+			var below = scrollY() > fold();
+			btn.classList.toggle('is-visible', below);
+			if (below) {
+				btn.setAttribute('tabindex', '0');
+				btn.removeAttribute('aria-hidden');
+			} else {
+				btn.setAttribute('tabindex', '-1');
+				btn.setAttribute('aria-hidden', 'true');
+			}
+		}
+
+		function scrollToTop() {
+			var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+			if (reduce) {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+				window.scrollTo(0, 0);
+				return;
+			}
+			// window.scrollTo alone often does nothing when BODY owns the scroll box (Chrome + this theme).
+			if (document.body.scrollTop > 0 && typeof document.body.scrollTo === 'function') {
+				document.body.scrollTo({ top: 0, behavior: 'smooth' });
+				return;
+			}
+			if (document.documentElement.scrollTop > 0 && typeof document.documentElement.scrollTo === 'function') {
+				document.documentElement.scrollTo({ top: 0, behavior: 'smooth' });
+				return;
+			}
+			window.scrollTo({ top: 0, behavior: 'smooth' });
+		}
+
+		window.addEventListener('scroll', sync, { passive: true });
+		document.addEventListener('scroll', sync, { passive: true, capture: true });
+		document.body.addEventListener('scroll', sync, { passive: true });
+		window.addEventListener('resize', sync, { passive: true });
+		sync();
+		btn.addEventListener('click', scrollToTop);
+	})();
+	</script>
+</body>
+
+</html>
