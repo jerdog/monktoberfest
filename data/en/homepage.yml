@@ -32,7 +32,7 @@ event:
   button:
     enable : true
     label : "Become a Sponsor"
-    link : "#sponsors"
+    link : "sponsorships/"
 
 ######################### Call to action #########################
 cta:
@@ -166,8 +166,8 @@ sponsor:
   sponsorship:
     enable : true
     title : "Want to be a sponsor?"
-    label : "Contact Us"
-    link : "mailto:mharris@redmonk.com?subject=Monktoberfest%20Sponsorship%20Inquiry"
+    label : "Become a Sponsor"
+    link : "sponsorships/"
 
 ################################ venue ########################
 venue:
