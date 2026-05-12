@@ -124,19 +124,24 @@ URL = "#sponsors"
 [[menu.main]]
 weight = 6
 name = "Travel"
-URL = "travel/"
 hasChildren = true
+
+[[menu.main]]
+weight = 1
+name = "Getting There"
+URL = "travel/"
+parent = "Travel"
 
 [[menu.main]]
 parent = "Travel"
 name = "Venue"
-weight = 1
+weight = 2
 URL = "#venue"
 
 [[menu.main]]
 parent = "Travel"
 name = "Portland"
-weight = 2
+weight = 3
 URL = "portland/"
 
 [[menu.main]]
