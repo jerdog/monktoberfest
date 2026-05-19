@@ -1,8 +1,8 @@
 ---
 author: rachelstephens
 date: "2020-06-15T02:10:46+00:00"
-gtitle: "Speakers from 2019"
-url: /program/2019talks/
+title: "Speakers from 2019"
+url: /program/2019-speakers/
 ---
 
 ### Erik Dasque - [Mentorship: A Tradition, A Right, and A Duty]

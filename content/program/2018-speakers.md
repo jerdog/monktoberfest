@@ -2,7 +2,7 @@
 author: rachelstephens
 date: "2019-04-19T21:23:42+00:00"
 title: "Speakers from 2018"
-url: /program/2018talks/
+url: /program/2018-speakers/
 ---
 
 ### Adrian Cockcroft - [Chaos Engineering]

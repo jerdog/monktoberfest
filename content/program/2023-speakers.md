@@ -2,7 +2,7 @@
 author: townsendlily
 date: "2023-12-11T16:44:01+00:00"
 title: "Speakers from 2023"
-url: /program/2023-2/
+url: /program/2023-speakers/
 ---
 
 ### Nickolas Means - [The Magnitude 9.1 Meltdown at Fukushima]

@@ -2,7 +2,7 @@
 author: townsendlily
 date: "2022-11-15T23:55:08+00:00"
 title: "Speakers from 2022"
-url: /program/2022talks/
+url: /program/2022-speakers/
 ---
 
 ### Julia Ferraioli & Amanda Casari - [Remember When We Broke the Internet?]

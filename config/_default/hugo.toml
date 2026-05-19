@@ -144,10 +144,10 @@ name = "Portland"
 weight = 3
 URL = "portland/"
 
-[[menu.main]]
-name = "Blog"
-weight = 7
-URL = "blog/"
+# [[menu.main]]
+# name = "Blog"
+# weight = 7
+# URL = "blog/"
 
 [[menu.main]]
 name = "FAQ"
@@ -182,7 +182,7 @@ link = "https://ti.to/monktoberfest/2025"
 
 # Subscription
 [params.subscription]
-enable = true
+enable = false
 # mailchimp subsciption
 # mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 # mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                                                           # replace this code with yours
@@ -225,7 +225,7 @@ home = "Home"
 # footer content
 footer_content = "The developer conference where social meets technology."
 # copyright
-copyright = "Copyright &copy; 2011-2025. Redmonk."
+copyright = "Copyright &copy; 2011-2026. Redmonk."
 
 
 # ################################### French language #####################################

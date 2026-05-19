@@ -183,7 +183,7 @@ venue:
 
 ############################### Blog ######################################
 blog:
-  enable : true
+  enable : false
   title_outline : "News"
   title : "Latest News"
   content : "Catch up on the latest news and announcements about Monktoberfest."
