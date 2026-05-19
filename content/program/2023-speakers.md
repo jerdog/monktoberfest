@@ -1,10 +1,6 @@
 ---
 author: townsendlily
 date: "2023-12-11T16:44:01+00:00"
-firehose_sent: "1702313042"
-guid: https://monktoberfest.com/?page_id=1570
-parent_post_id: "906"
-post_id: "1570"
 title: "Speakers from 2023"
 url: /program/2023-2/
 ---

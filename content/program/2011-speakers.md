@@ -1,10 +1,6 @@
 ---
 author: rachelstephens
 date: "2011-11-10T21:19:06+00:00"
-geo_public: "0"
-guid: http://monktoberfest.com/?page_id=925
-parent_post_id: "906"
-post_id: "925"
 title: "Speakers from 2011"
 url: /program/2011-speakers/
 ---

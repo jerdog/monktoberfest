@@ -1,14 +1,6 @@
 ---
 author: townsendlily
 date: "2024-11-26T19:37:31+00:00"
-firehose_sent: "1732649852"
-footnotes: ""
-guid: https://monktoberfest.com/?page_id=1668
-jetpack_seo_html_title: ""
-jetpack_seo_noindex: ""
-parent_post_id: "906"
-post_id: "1668"
-reader_suggested_tags: ""
 title: "Speakers from 2024"
 url: /program/2024-speakers/
 ---

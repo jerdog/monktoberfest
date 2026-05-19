@@ -1,10 +1,7 @@
 ---
 author: rachelstephens
 date: "2020-06-15T02:10:46+00:00"
-guid: https://monktoberfest.com/?page_id=1332
-parent_post_id: "906"
-post_id: "1332"
-title: "Speakers from 2019"
+gtitle: "Speakers from 2019"
 url: /program/2019talks/
 ---
 

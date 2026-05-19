@@ -1,10 +1,6 @@
 ---
 author: rachelstephens
 date: "2018-04-10T19:35:02+00:00"
-geo_public: "0"
-guid: http://monktoberfest.com/?page_id=906
-parent_post_id: null
-post_id: "906"
 title: Program
 url: /program/previous-years/
 sidebar: false

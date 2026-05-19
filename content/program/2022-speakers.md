@@ -1,9 +1,6 @@
 ---
 author: townsendlily
 date: "2022-11-15T23:55:08+00:00"
-guid: https://monktoberfest.com/?page_id=1395
-parent_post_id: "906"
-post_id: "1395"
 title: "Speakers from 2022"
 url: /program/2022talks/
 ---
