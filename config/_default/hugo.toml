@@ -2,6 +2,7 @@
 baseURL = "/"
 title = "The Monktoberfest"
 theme = "vixcon-hugo"
+favicon = "/images/favicon.png"
 # post pagination
 pagination.pagerSize = 4
 # post excerpt
