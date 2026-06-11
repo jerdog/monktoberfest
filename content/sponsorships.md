@@ -18,7 +18,7 @@ The following sponsorship opportunities are available. Please contact [Morgan Ha
 
 ## General Sponsorship Programs
 
-### Trappist Sponsorship
+### Trappist Sponsorship -- SOLD OUT
 
 The Trappist sponsor – named in honor of the famous Belgian monasteries – will be the lead sponsor for the conference, prominently featured in our official event materials, including slides, and mentioned during the event introduction and conclusion. The Trappist sponsor will further be cited as the lead Monktoberfest sponsor on our corporate and individual Twitter feeds (with a combined reach in the tens of thousands), and we will retweet (conditional on approval) a Tweet of your selection. Trappist sponsors also receive four free seats at the event and will have the right to post promotional materials.
 
