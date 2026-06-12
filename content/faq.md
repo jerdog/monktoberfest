@@ -18,12 +18,14 @@ If you’re able, plan to arrive the afternoon of Wednesday 9/30 and stay throug
 
 We’ll be hosting a pre-conference event the evening before the conference beginning at 5:00 on Wednesday.
 
-The single track conference will be all day Thursday. We will provide breakfast, lunch, snacks, and drinks. At the conclusion of the event, we’ll be hosting a multi-course beer tasting and dinner. You will be treated to nothing less than the best beers from countries all over the world, many of which you cannot get anywhere else in the US.
+The single track conference will be all day Thursday. We will provide breakfast, lunch, snacks, and drinks. At the conclusion of the day, we’ll be hosting a multi-course beer tasting and dinner. You will be treated to nothing less than the best beers from countries all over the world, many of which you cannot get anywhere else in the US.
 
 We’ll wrap up early Friday afternoon after a half day’s worth of sessions. Breakfast and coffee is also provided on the second day.
 
+You might choose to stick around afterwards; Allagash plans to provide Monktoberfest guests tours of their brewing facility.
+
 ## Where is it?
-The conference will be held in the real Portland, which you may know as Portland, Maine. You can find more details about our venue here.
+The conference will be held in the real Portland, which you may know as Portland, Maine. We're excited to announce that the venue has changed to Allagash Brewing Company, which is more on the northwest outskirts of the city.
 
 ## Why is it in Portland?
 Because it’s an incredible town with amazing beer. Also, New England in the autumn is an utter delight.
@@ -31,7 +33,7 @@ Because it’s an incredible town with amazing beer. Also, New England in the au
 ## Isn’t it hard to get there?
 Nope. We have an airport and everything. Flights are available directly into Portland (airport code PWM — please double check and make sure you don’t book your flight to Portland, OR.) There are also a multitude of travel options from Boston, including driving, the Concord Coach bus service, and the Amtrak Downeaster.
 
-More travel and lodging details are available here.
+More travel and lodging details are available [here](https://monktoberfest.com/travel).
 
 Who should attend?
 It is highly recommended that technologists that are thoughtful about their craft and their place in the world – and/or that like the best beers from all over the world – attend.
@@ -60,7 +62,7 @@ Wear what makes you comfortable! If it’s helpful as a gauge, the person runnin
 For the Wednesday welcome event, plan on layers suitable for an autumn evening in New England.
 
 ## I’d like to connect with other attendees. How can I do that?
-Follow the #monktoberfest hashtag on Twitter and join our Slack community.
+Follow the #monktoberfest hashtag on Twitter and join our [Slack community.](https://communityinviter.com/apps/monktoberfest/the-monktoberfest)
 
 ## I’m interested in sponsorship: who do I contact?
 Great! Contact [Morgan Harris](mailto:mharris@redmonk.com?subject=Monktoberfest%20Sponsorship%20Inquiry) for more info about getting your brand in front of some of the best technologists in the world.
