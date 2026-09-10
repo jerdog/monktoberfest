@@ -6,7 +6,13 @@
   "build": {
     "command": "hugo --gc --minify"
   },
-  "assets": {
+	// "routes": [
+	// 	{
+	// 		"pattern": "web.monktoberfest.com",
+	// 		"custom_domain": true
+	// 	}
+	// ],
+"assets": {
     "directory": "./public"
   },
   "observability": {
