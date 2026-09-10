@@ -92,15 +92,15 @@ sponsor:
     - title : "Trappist"
       sponsor:
         # sponsor loop
-        - logo : ""
-          link : ""
+        - logo : "/images/sponsors/1024px-aws_logo.png"
+          link : "https://www.aws.amazon.com"
 
     ############################ sponsor group loop
     - title : "Abbot"
       sponsor:
         # sponsor loop
-        - logo : ""
-          link : ""
+        - logo : "/images/sponsors/google-logo.webp"
+          link : "https://www.google.com"
 
         # sponsor loop
         - logo : ""
@@ -114,29 +114,15 @@ sponsor:
     - title : "Diversity and Inclusion"
       sponsor:
         # sponsor loop
-        - logo : ""
-          link : ""
+        - logo : "/images/sponsors/oracle-logo.webp"
+          link : "https://www.oracle.com"
 
     ############################ sponsor group loop
-    - title : ""
+    - title : "Conference Dinner"
       sponsor:
         # sponsor loop
-        - logo : ""
-          link : ""
-
-    ############################ sponsor group loop
-    - title : "Beer Glasses"
-      sponsor:
-        # sponsor loop
-        - logo : ""
-          link : ""
-
-    ############################ sponsor group loop
-    - title : "Lunch"
-      sponsor:
-        # sponsor loop
-        - logo : ""
-          link : ""
+        - logo : "/images/sponsors/redhat-logo.png"
+          link : "https://www.redhat.com"
 
     ############################ sponsor group loop
     - title : "Dinner Cruise"
@@ -146,21 +132,48 @@ sponsor:
           link : ""
 
     ############################ sponsor group loop
+    - title : "Lunch"
+      sponsor:
+        # sponsor loop
+        - logo : "/images/sponsors/dynatrace-logo.webp"
+          link : "https://www.dynatrace.com"
+
+        # sponsor loop
+        - logo : "/images/sponsors/oracle-logo.webp"
+          link : "https://www.oracle.com"
+
+    ############################ sponsor group loop
+    - title : "Buy a Round"
+      sponsor:
+        # sponsor loop
+        - logo : "/images/sponsors/cncf-logo.webp"
+          link : "https://www.cncf.io"
+
+        # sponsor loop
+        - logo : "/images/sponsors/SnapLogic-logo.svg"
+          link : "https://www.snaplogic.com"
+
+        # sponsor loop
+        - logo : "/images/sponsors/therowlandagency-logo.jpg"
+          link : "https://www.therowlandagency.com"
+
+    ############################ sponsor group loop
     - title : "Coffee"
       sponsor:
         # sponsor loop
-        - logo : ""
-          link : ""
+        - logo : "/images/sponsors/grafanalabs-logo.svg"
+          link : "https://www.grafana.com"
+
         # sponsor loop
         - logo : ""
           link : ""
 
     ############################ sponsor group loop
-    - title : "Breakfast"
+    - title : "Conference Snacks"
       sponsor:
         # sponsor loop
-        - logo : ""
-          link : ""
+        - logo : "/images/sponsors/BARN ANALYTICS Logo.svg"
+          link : "https://www.barnanalytics.com"
 
   # call to action in sponsor
   sponsorship:
