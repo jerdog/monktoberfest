@@ -128,8 +128,8 @@ sponsor:
     - title : "Dinner Cruise"
       sponsor:
         # sponsor loop
-        - logo : ""
-          link : ""
+        - logo : "/images/sponsors/mongodb-logo.png"
+          link : "https://www.mongodb.com"
 
     ############################ sponsor group loop
     - title : "Lunch"
