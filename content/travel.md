@@ -8,7 +8,7 @@ author: ""
 sidebar: false
 ---
 
-If you’re one of those people who hears Maine and thinks, “Do they have running water?” you’re in for a treat. Besides being home to **[RedMonk HQ](https://www.google.com/maps/preview#!q=redmonk&data=!1m4!1m3!1d3713!2d-70.251496!3d43.660514!4m11!1m10!4m8!1m3!1d92355!2d-70.2115149!3d43.6670104!3m2!1i1024!2i768!4f13.1!17b1)**, Portland is a tremendous town of around 60,000 people. We’re Elle’s **“[Coziest City in America](http://www.elledecor.com/life-culture/travel/a424/new-coziest-city/)“**. We’re becoming famous for our food; Bon Appetit gave us the prize for the **“[Foodiest Small Town](http://www.bonappetit.com/blogsandforums/blogs/bafoodist/2009/08/americas-foodiest-small-town-2.html)”** back in 2009, and the Boston Globe **[calls us](http://www.bostonglobe.com/lifestyle/travel/2013/06/29/portland-hardworking-unpretentious/QOKomNhUyuQcg9ZCCEpgHM/story.html)** “hardworking, unpretentious.” Lonely Planet calls us **“[a small town for big appetites](https://www.lonelyplanet.com/articles/portland-maine-a-small-town-for-big-appetites).”** The New York Times, for its part, had **[nice things to say as well](http://www.nytimes.com/2009/09/16/dining/16chefs.html?pagewanted=all)**. Here’s what they recommend for **[36 hours](http://travel.nytimes.com/2010/08/22/travel/22hours.html)** in town, by the way.
+If you’re one of those people who hears Maine and thinks, “Do they have running water?” you’re in for a treat. Portland is a tremendous town of around 60,000 people. We’re Elle’s **“[Coziest City in America](http://www.elledecor.com/life-culture/travel/a424/new-coziest-city/)“**. We’re becoming famous for our food; Bon Appetit gave us the prize for the **“[Foodiest Small Town](http://www.bonappetit.com/blogsandforums/blogs/bafoodist/2009/08/americas-foodiest-small-town-2.html)”** back in 2009, and the Boston Globe **[calls us](http://www.bostonglobe.com/lifestyle/travel/2013/06/29/portland-hardworking-unpretentious/QOKomNhUyuQcg9ZCCEpgHM/story.html)** “hardworking, unpretentious.” Lonely Planet calls us **“[a small town for big appetites](https://www.lonelyplanet.com/articles/portland-maine-a-small-town-for-big-appetites).”** The New York Times, for its part, had **[nice things to say as well](http://www.nytimes.com/2009/09/16/dining/16chefs.html?pagewanted=all)**. Here’s what they recommend for **[36 hours](http://travel.nytimes.com/2010/08/22/travel/22hours.html)** in town, by the way.
 
 In most other ways, Portland’s a lot like Boston. Not big, streets occasionally cobbled and right on the water. Here’s what you need to know about getting there, getting around and getting out.
 
@@ -32,13 +32,17 @@ If you only fly direct, Google Maps says that Boston’s Logan Airport (BOS) is 
 
 ## Getting Around
 
-All of the hotels are an easy walk to and from the conference and dinner venues. Uber and Lyft are available for travel around the Portland area. So you probably do not need to rent a car, unless you’re making a weekend of it. If you do, the Portland Jetport has multiple rental options available to you.
+Portland is a wonderfully walkable city, and most of its highlights are easy to explore on foot. Note that the conference venue is outside the city center, but don't worry about the commute — we'll be busing everyone to the dinner venue on Danforth St., which is conveniently located in town and an easy walk from most of the recommended hotels.  
+
+Uber and Lyft are available for travel around the Portland area. So you probably do not need to rent a car, unless you’re making a weekend of it. If you do, the Portland Jetport has multiple rental options available to you.
 
 ---
 
 ## Lodging
 
-The following hotels are convenient:
+**We have a room block booked at the Hampton Inn Portland Downtown - Waterfront. Book your room early at [this link.](https://www.hilton.com/en/attend-my-event/pwmdthx-red-ce9e0321-27cc-43d5-92ef-bc90c861102b/)**
+
+The following hotels are also convenient:
 
 **[Marriott Residence Inn](https://www.marriott.com/hotels/travel/pwmdt-residence-inn-portland-downtown-waterfront/)** (207-761-1660)
 **[Portland Harbor Hotel](http://www.portlandharborhotel.com/)** (207-775-9090)
@@ -50,4 +54,4 @@ Other convenient hotels include the [Portland Regency](http://www.theregency.com
 
 ## Ride Sharing
 
-Looking to road trip up to the Monktoberfest with other other tech and beer fans? Head over to the Meetups category in the Monktoberfest Slack channel.
+Looking to road trip up to the Monktoberfest with other other tech and beer fans? Head over to the Meetups category in the [Monktoberfest Slack channel.](https://communityinviter.com/apps/monktoberfest/the-monktoberfest)

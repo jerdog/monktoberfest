@@ -63,7 +63,7 @@ While we don't have space set aside exclusively for this purpose, we can definit
 
 ### What if I have a medical emergency or health problem during the conference?
 
-You can seek immediate medical attention at nearby hospitals and urgent care clinics, including [Maine Medical Center](https://mainehealth.org/maine-medical-center), [Mercy Hospital](https://www.mercyhospital.org/), and [ConvenientMD Urgent Care Clinic](https://convenientmd.com/locations/portland-me-urgent-care-04101/). Nearby pharmacies include [CVS](https://www.cvs.com/store-locator/cvs-pharmacy-address/510+Congress+Street-Portland-ME-04101/storeid=454?WT.mc_id=LS_GOOGLE_FS_454) and [RiteAid](https://locations.riteaid.com/locations/me/portland/290-congress-street.html).
+You can seek immediate medical attention at nearby hospitals and urgent care clinics, including [Maine Medical Center](https://mainehealth.org/maine-medical-center), [Northern Light Mercy Hospital](https://northernlighthealth.org/Our-System/Mercy-Hospital/Locations/Mercy-Hospital), and [ConvenientMD Urgent Care Clinic](https://convenientmd.com/locations/portland-me-urgent-care-04101/). Nearby pharmacies include [Hannaford Pharmacy](https://stores.hannaford.com/me/portland/8354) and [CVS](https://www.cvs.com/store-locator/portland-me-pharmacies/111-auburn-st-portland-me-04103/storeid=329?WT.mc_id=LS_GOOGLE_RX_329).
 
 (These references are based on proximity to the venue. Please do your own due diligence before seeking medical care!)
 

@@ -2,7 +2,7 @@ schedule:
   enable : true
   title_outline : "schedule"
   title : "High-level Agenda"
-  content : "**Monktoberfest** is a day and a half of single track sessions, with a relaxed schedule that will allow for an equally rewarding hallway track. We do not disclose our speaker list in advance (<a href=/blog/why-the-monktoberfest-agenda-is-not-disclosed.md>here’s the rationale about why</a>), but we recognize that it can be helpful to have a general sense of what to expect from a conference. You can get a sense of content you can expect by looking at talks from our previous events and recaps from the team.<p>Below is a high-level agenda of what you can expect for the 2025 event.</p>"
+  content : "**Monktoberfest** is a day and a half of single track sessions, with a relaxed schedule that will allow for an equally rewarding hallway track. We do not disclose our speaker list in advance (<a href=/blog/why-the-monktoberfest-agenda-is-not-disclosed.md>here’s the rationale about why</a>), but we recognize that it can be helpful to have a general sense of what to expect from a conference. You can get a sense of content you can expect by looking at talks from our previous events and recaps from the team.<p>Below is a high-level agenda of what you can expect for the 2026 event.</p>"
   schedule_tab:
     ################# tab itam loop ################
     - title : "Day 0"
@@ -19,7 +19,7 @@ schedule:
 
           <p>While we will provide a few things to nibble on, we won’t have a full meal on the boat so plan accordingly. We’ll turn you all loose to grab dinner at one of the dozens of nationally renowned restaurants in the neighborhood upon our return to port.</p>
 
-          <p>Getting in to town late? Check the #monktoberfest tag on <a href=https://twitter.com/hashtag/monktoberfest>Twitter</a> or <a href=https://bsky.app/hashtag/monktoberfest>Bluesky</a>, or the <a href=http://slackmonk.herokuapp.com/>Monktoberfest Slack channel</a> to catch up with your fellow attendees. We’ll be back to grab food and drinks with you around 8:30.</p>
+          <p>Getting in to town late? Check the #monktoberfest tag on <a href=https://twitter.com/hashtag/monktoberfest>Twitter</a> or <a href=https://bsky.app/hashtag/monktoberfest>Bluesky</a>, or the <a href=https://communityinviter.com/apps/monktoberfest/the-monktoberfest>Monktoberfest Slack channel</a> to catch up with your fellow attendees. We’ll be back to grab food and drinks with you around 8:30.</p>
           "
 
     ################# tab itam loop ################

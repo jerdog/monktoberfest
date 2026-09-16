@@ -8,7 +8,7 @@ sidebar: false
 breadcrumb: false
 ---
 
-[2026 Tickets Available Soon]
+[2026 Tickets Available Now](https://ti.to/monktoberfest/2026)
 
 Tickets include:
 

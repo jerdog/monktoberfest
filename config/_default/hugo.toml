@@ -179,7 +179,7 @@ preloader = "" # use jpg, png, svg or gif format.
 [params.navigation_button]
 enable = true
 label = "Buy Tickets"
-link = "https://ti.to/monktoberfest/2025"
+link = "https://ti.to/monktoberfest/2026"
 
 # Subscription
 [params.subscription]

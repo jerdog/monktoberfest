@@ -8,7 +8,7 @@ sidebar: false
 breadcrumb: false
 ---
 
-[**Applications for 2026 are currently closed. Check back soon**!](https://docs.google.com/forms/d/e/1FAIpQLSf104xmsWIfLwMrmOxSeToeIihgg9UnC8eHxSoJvdXfwWirvg/viewform)
+[**Applications for 2026 are open!**](https://docs.google.com/forms/d/e/1FAIpQLSeCsjrx_VtT49mHUkbcew2oxVpGWfQUkTilNltySJ27uW5TjQ/viewform?usp=sharing&ouid=100123391551774426508)
 
 --
 

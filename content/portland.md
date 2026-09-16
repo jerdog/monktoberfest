@@ -16,15 +16,15 @@ Some additional FAQ and tips to help maximize your Monktoberfest enjoyment and y
 
 **Get a coffee?**
 
-Like Fake Portland, we are partial to our locally-owned coffee shops and we support them heartily. [Speckled Ax](https://www.facebook.com/pages/Speckled-Ax/303953179683722?sk=info&tab=page_info) is a favorite of Monktoberfest attendees—just ask [@aneel](https://twitter.com/aneel) or [@monkchips](https://twitter.com/monkchips). We also highly recommend the excellent [Bard Coffee](http://www.bardcoffee.com/content/10-coffee-shop), [Tandem Coffee](https://www.tandemcoffee.com/), and [Arabica Coffee Company](https://www.yelp.com/biz/arabica-coffee-co-portland), all located within walking distance in-town. Both Bard and Arabica offer WiFi to customers.
+Like Fake Portland, we are partial to our locally-owned coffee shops and we support them heartily. [Speckled Ax](https://speckledax.com) is a favorite of Monktoberfest attendees—just ask [@aneel](https://twitter.com/aneel) or [@monkchips](https://twitter.com/monkchips). We also highly recommend the excellent [Bard Coffee](http://www.bardcoffee.com/content/10-coffee-shop), [Tandem Coffee](https://www.tandemcoffee.com/), and [Arabica Coffee Company](https://www.yelp.com/biz/arabica-coffee-co-portland), all located in downtown Portland.
 
 **Get breakfast?**
 
 Monktoberfest will serve breakfast items both days beginning at 10 AM. If you require sustenance before 10 AM, and you want to venture beyond the confines of your hotel’s kitchen, we recommend the following:
 
 - [Bayside American Cafe](http://www.baysideamericancafe.com/): A Portland favorite, Bayside American Cafe serves up a mean breakfast. In particular, it’s known for two things: creative egg benedicts and decadent french toasts. It is open for breakfast/brunch everyday from 7am-2pm.
-- [Crooked Mile](http://thecrookedmilecafe.com/): Conveniently located between [the Hampton Inn/Residence Inn](https://maps.google.com/maps?saddr=Portland+Public+Library,+5+Monument+Square,+Portland,+ME&daddr=Crooked+Mile,+8+Milk+Street,+Portland,+ME&hl=en&sll=43.658651,-70.255691&sspn=0.003865,0.008379&geocode=FSoqmgIdyu3P-yGmh_Bk8l3fCykHxCHAFJyyTDGmh_Bk8l3fCw%3BFT8pmgIdXAfQ-yGexNYs5teAkikHguYJQJyyTDGexNYs5teAkg&oq=portland+p&mra=ls&t=m&z=17) the Crooked Mile serves up coffee, breakfast sandwiches, and bagels for take-away or eat-in. (The Crooked Mile also serves lunch.)
-- Staying on the West End? Swing by [OhNo Café](http://ohnocafe.com/) for a famous breakfast sandwich (served all day) or order off the lunch and dinner menu. There’s also a great beer and wine selection.
+- [The Friendly Toast](https://www.thefriendlytoast.com/portland-me): Conveniently attached to our room block hotel the Hampton Inn. The Friendly Toast is a lively and eclectic restaurant known for its retro-inspired decor and inventive take on classic American comfort food. It also serves all-day breakfast!
+- Staying on the West End? Swing by [Henny's](https://hennys.me) for a breakfast sandwich (served all day).
 - If you’re an early bird, [Becky’s Diner](http://www.beckysdiner.com/) opens at 4am and serves a variety of diner favorites. They also serve lunch and dinner, open until 9pm.
 - This one is off the peninsula, but it’s worth a mention: [Norimoto Bakery](https://norimoto-bakery.square.site/). Owner Atsuko Fujimoto recently won a [James Beard award](https://www.portlandfoodmap.com/fujimoto-wins-beard-award/) in the Outstanding Pastry Chef or Baker category. Trust us — it’s well deserved.
 
@@ -32,8 +32,8 @@ Monktoberfest will serve breakfast items both days beginning at 10 AM. If you re
 
 Monktoberfest will provide lunch with local beers on Thursday. If you’re looking for lunch options on Wednesday or Friday, Portland is not short on places to eat. To help narrow your choices, may we recommend:
 
-- Sushi: [Miyake](https://www.miyakerestaurants.com/miyake) on Fore Street is hands-down the [best sushi in Portland](https://www.miyakerestaurants.com/miyake-menu), if not the northeast. Try Oxbow Beer’s tasty Sasuga Saison, a rice ale fermented with brettanomyces and saison yeast, brewed especially for Miyake. Tasty alternatives include [Sapporo](http://www.sappororestaurant.com/) on Commercial Street or [Yosaku](https://www.yelp.com/biz/yosaku-japanese-restaurant-portland) on Danforth.
-- Dine-in with bar service: This one is a [monkchips](https://twitter.com/monkchips) fave. Another popular Portland eatery, [The Honeypaw](https://www.thehoneypaw.com/) has an irresistible menu with bar and full dining options.
+- Sushi: [Miyake](https://www.miyakerestaurants.com/miyake) on Fore Street is hands-down the [best sushi in Portland](https://www.miyakerestaurants.com/miyake-menu), if not the northeast. Try Oxbow Beer’s tasty Sasuga Saison, a rice ale fermented with brettanomyces and saison yeast, brewed especially for Miyake. Tasty alternatives include [Mr. Tuna](https://www.mrtunamaine.com) on Middle Street or [Yosaku](https://www.yelp.com/biz/yosaku-japanese-restaurant-portland) on Danforth.
+- Dine-in with bar service: This one is a [monkchips](https://twitter.com/monkchips) fave. Another popular Portland eatery, [The Honeypaw](https://www.thehoneypaw.com/) has an irresistible menu with bar and full dining options. Event organizer Lily's favorite spot is [Crispy Gai](https://www.crispygai.com). This is a must try for folks who enjoy fried chicken done right.
 - Quick & easy: The [Portland Public Market](http://www.publicmarkethouse.com/mission.html) is located across the street from the Portland Public Library. It offers a la carte dining from a variety of vendors with take-away or dine-in options.
 
 **Eat if you’re a vegetarian?**
@@ -61,7 +61,15 @@ Need a post-Monktoberfest snack? Brave the late-night coeds, if you dare: find P
 
 **Hit up a brewery?**
 
-Portland is home to several excellent, small-scale breweries, several of which have tasting rooms and tours on Fridays. To name a few: [Allagash Brewing](http://www.allagash.com/) (it’s a short ride outside the city, but you can also go to [Bissell Brothers](http://www.bissellbrothers.com/), [Foundation](http://foundationbrew.com/), and [Austin Street](http://www.austinstreetbrewery.com/) while you’re there); [Rising Tide Brewing](http://www.risingtidebrewing.com/), [Maine Beer Company](http://www.mainebeercompany.com/). The wonderful [Oxbow Beer](http://www.oxbowbeer.com/) has a blending and bottling room over on Washington Ave. The main Oxbow brewery is a scenic 45 minute ride outside Portland, meanwhile, but well-worth the trip up the coast.
+Portland is home to several excellent, small-scale breweries, several of which have tasting rooms and tours on Fridays. [Allagash Brewing](http://www.allagash.com/) is the obvious one -- you'll already be there! While you're in the area, you can also go to [Bissell Brothers](http://www.bissellbrothers.com/), [Foundation](http://foundationbrew.com/), and [Austin Street](http://www.austinstreetbrewery.com/); [Rising Tide Brewing](http://www.risingtidebrewing.com/), [Maine Beer Company](http://www.mainebeercompany.com/). The wonderful [Oxbow Beer](http://www.oxbowbeer.com/) has a blending and bottling room over on Washington Ave. The main Oxbow brewery is a scenic 45 minute ride outside Portland, meanwhile, but well-worth the trip up the coast.
+
+---
+
+## WINE
+
+**Buy wine?**
+
+Even though Monktoberfest is a conference celebrating the diversity of beer, we have plenty of attendees who absolutely love wine! Feel free to ask [@monkchips](https://twitter.com/monkchips) what he thinks about natural wine. Some notable places to taste and buy fine wines include [Grippy Tannins](https://www.grippytannins.com) on Middle St. and [Maine and Loire](https://www.maineandloire.com) on Washington Ave., the latter highlighted in [Lettie Teague's review on Substack](https://lettiewine.substack.com/p/perfectly-portland).
 
 ---
 
