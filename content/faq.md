@@ -62,7 +62,7 @@ Wear what makes you comfortable! If it’s helpful as a gauge, the person runnin
 For the Wednesday welcome event, plan on layers suitable for an autumn evening in New England.
 
 ## I’d like to connect with other attendees. How can I do that?
-Follow the #monktoberfest hashtag on Twitter and join our [Slack community.](https://communityinviter.com/apps/monktoberfest/the-monktoberfest)
+Follow the #monktoberfest hashtag on Twitter and join our [Slack community.](https://monktoberfest.slack.com/join/shared_invite/zt-476gdulxc-7l4jSf1yBaBtEQG0y~JLVg)
 
 ## I’m interested in sponsorship: who do I contact?
 Great! Contact [Morgan Harris](mailto:mharris@redmonk.com?subject=Monktoberfest%20Sponsorship%20Inquiry) for more info about getting your brand in front of some of the best technologists in the world.
