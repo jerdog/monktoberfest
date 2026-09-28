@@ -192,7 +192,7 @@ venue:
   title : "Venue location"
   image : "images/allagashgreatroom.jpg"
   date : "October 1-2, 2026"
-  location : "ALLAGASH BREWING COMPANY, 50 Industrial Wy <br />Portland, ME"
+  location : "ALLAGASH BREWING COMPANY, 81 Industrial Way <br />Portland, ME"
   button:
     enable : true
     label : "View Map location"
