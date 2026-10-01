@@ -102,14 +102,6 @@ sponsor:
         - logo : "/images/sponsors/google-logo.webp"
           link : "https://www.google.com"
 
-        # sponsor loop
-        - logo : ""
-          link : ""
-
-        # sponsor loop
-        - logo : ""
-          link : ""
-
     ############################ sponsor group loop
     - title : "Diversity and Inclusion"
       sponsor:
@@ -167,10 +159,6 @@ sponsor:
         # sponsor loop
         - logo : "/images/sponsors/grafanalabs-logo.svg"
           link : "https://www.grafana.com"
-
-        # sponsor loop
-        - logo : ""
-          link : ""
 
     ############################ sponsor group loop
     - title : "Conference Snacks"

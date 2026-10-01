@@ -214,12 +214,13 @@ link = "#"
 icon = "tf-ion-social-linkedin"
 link = "#"
 
-
 ################################### English language #####################################
 [languages.en]
 [languages.en.params]
+[language]
+locale = "en-us"
 languageName = "En"
-languageCode = "en-us"
+# languageCode = "en-us"
 contentDir = "content/"
 weight = 1
 home = "Home"
