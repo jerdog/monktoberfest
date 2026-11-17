@@ -70,13 +70,15 @@ Redirects for old URLs are in `public/_redirects`.
 
 ### 1. The site Worker (`monktoberfest-web`)
 
-`wrangler.jsonc` keeps the existing Worker name and the `monktoberfest.com` custom domain. In the Cloudflare dashboard → **Workers & Pages → monktoberfest-web → Settings → Build**, update the commands that used to run Hugo:
+`wrangler.jsonc` keeps the existing Worker name and the `monktoberfest.com` custom domain. In the Cloudflare dashboard → **Workers & Pages → monktoberfest-web → Settings → Build**, the build command still runs Hugo. Change it:
 
 | Setting | Value |
 | --- | --- |
-| Build command | `npx opennextjs-cloudflare build` |
-| Deploy command | `npx opennextjs-cloudflare deploy` |
-| Non-production branch deploy command | `npx opennextjs-cloudflare upload` |
+| Build command | `npm run build:worker` |
+| Deploy command | `npx wrangler deploy` (the default) |
+| Non-production branch deploy command | `npx wrangler versions upload` (the default) |
+
+`npm run build:worker` builds the site and copies the prerendered pages into the Worker's assets, so the stock Wrangler deploy commands work. Don't use the build command `npx opennextjs-cloudflare build` on its own: without that copy step, every Markdown page returns an error.
 
 Make sure **builds for non-production branches** are enabled: that's what gives each CMS draft a preview URL.
 
