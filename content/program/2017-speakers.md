@@ -3,48 +3,38 @@ author: rachelstephens
 date: "2018-04-10T21:00:07+00:00"
 title: "Speakers from 2017"
 url: /program/2017-speakers/
+talks:
+  - speaker: "Bryan Cantrill"
+    title: "Principles of Technology Leadership"
+    video: "https://www.youtube.com/watch?v=9QMGAtxUlAc"
+  - speaker: "Clara Beyer"
+    title: "How to Save the World (or at least survive the year)"
+    video: "https://www.youtube.com/watch?v=-PbrV07_K9E"
+  - speaker: "Mira Bernstein"
+    title: "Gerrymandering: The Role of Technology"
+    video: "https://www.youtube.com/watch?v=9adYLCdxDzE"
+  - speaker: "Erin Simpson"
+    title: "Secrets vs Mysteries: Social Science as Data Science"
+    video: "https://www.youtube.com/watch?v=KuWPkboDOqA"
+  - speaker: "Sarah Hines"
+    title: "What My Name Says About You or Remington Steele Is a Thing"
+    video: "https://www.youtube.com/watch?v=oJ17en7-MwY"
+  - speaker: "Zack Urlocker"
+    title: "Building a Tech Company Outside of Silicon Valley"
+    video: "https://www.youtube.com/watch?v=msqWwNjkLHc"
+  - speaker: "r0ml Lefkowitz"
+    title: "Age Discrimination in Tech"
+    video: "https://www.youtube.com/watch?v=r0177DlJ0eU"
+  - speaker: "James Bessen"
+    title: "“No, technology is not about to take all our jobs”"
+    video: "https://www.youtube.com/watch?v=AC02sFLnZ-I"
+  - speaker: "Amanda Whaley"
+    title: "Marie Curie, Open Source, Kickstarter and Women in Tech"
+    video: "https://www.youtube.com/watch?v=8TL3DA0kSAo"
+  - speaker: "Aneel Lakhani"
+    title: "Change Through Obsolescence"
+    video: "https://www.youtube.com/watch?v=bMwfmEhnXgw"
+  - speaker: "Dan Turkenkopf"
+    title: "The Cathedral and the Ballpark"
+    video: "https://www.youtube.com/watch?v=IVLlNVkUNDs"
 ---
-
-### Bryan Cantrill - [Principles of Technology Leadership]
-
-{{< youtube 9QMGAtxUlAc >}}
-
-### Clara Beyer - [How to Save the World (or at least survive the year)]
-
-{{< youtube "-PbrV07_K9E" >}}
-
-### Mira Bernstein - [Gerrymandering: The Role of Technology]
-
-{{< youtube 9adYLCdxDzE >}}
-
-### Erin Simpson - [Secrets vs Mysteries: Social Science as Data Science]
-
-{{< youtube KuWPkboDOqA >}}
-
-### Sarah Hines - [What My Name Says About You or Remington Steele Is a Thing]
-
-{{< youtube oJ17en7-MwY >}}
-
-### Zack Urlocker - [Building a Tech Company Outside of Silicon Valley]
-
-{{< youtube msqWwNjkLHc >}}
-
-### r0ml Lefkowitz - [Age Discrimination in Tech]
-
-{{< youtube r0177DlJ0eU >}}
-
-### James Bessen - [“No, technology is not about to take all our jobs”]
-
-{{< youtube AC02sFLnZ-I >}}
-
-### Amanda Whaley - [Marie Curie, Open Source, Kickstarter and Women in Tech]
-
-{{< youtube 8TL3DA0kSAo >}}
-
-### Aneel Lakhani - Change Through Obsolescence
-
-{{< youtube bMwfmEhnXgw >}}
-
-### Dan Turkenkopf - The Cathedral and the Ballpark
-
-{{< youtube IVLlNVkUNDs >}}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  // GitHub sign-in for the CMS at /admin/. Deploy with: npx wrangler deploy -c cms-auth/wrangler.jsonc
+  "name": "monktoberfest-cms-auth",
+  "main": "src/index.js",
+  "compatibility_date": "2026-06-29",
+  "workers_dev": true,
+  "vars": {
+    // Sites allowed to receive a sign-in token. "*.jerdog.workers.dev" covers preview URLs.
+    "ALLOWED_DOMAINS": "monktoberfest.com,www.monktoberfest.com,*.jerdog.workers.dev,localhost"
+  }
+  // Secrets (not stored here):
+  //   npx wrangler secret put GITHUB_CLIENT_ID -c cms-auth/wrangler.jsonc
+  //   npx wrangler secret put GITHUB_CLIENT_SECRET -c cms-auth/wrangler.jsonc
+}

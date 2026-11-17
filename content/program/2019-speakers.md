@@ -3,48 +3,38 @@ author: rachelstephens
 date: "2020-06-15T02:10:46+00:00"
 title: "Speakers from 2019"
 url: /program/2019-speakers/
+talks:
+  - speaker: "Erik Dasque"
+    title: "Mentorship: A Tradition, A Right, and A Duty"
+    video: "https://www.youtube.com/watch?v=KR_-2PHX5Qc"
+  - speaker: "Maureen McElaney"
+    title: "Digital Discrimination: Cognitive Bias in Machine Learning"
+    video: "https://www.youtube.com/watch?v=I7WCpVKYge0"
+  - speaker: "Alex Avritch"
+    title: "How To Get The Best Candidates to Swipe Right"
+    video: "https://www.youtube.com/watch?v=9Sw5FD_5XMc"
+  - speaker: "Swarna Podila"
+    title: "Achieving Career Goals is a Lot Like Being a Spider Person"
+    video: "https://www.youtube.com/watch?v=nVVRnU76ZRE"
+  - speaker: "Jeremy Bowers"
+    title: "The Data is Made Out of People"
+    video: "https://www.youtube.com/watch?v=sn4T04fAmXU"
+  - speaker: "Julia Ferraioli"
+    title: "Building Compassion"
+    video: "https://www.youtube.com/watch?v=X6qOweQtqTg"
+  - speaker: "Kohsuke Kawaguchi"
+    title: "My Personal Journey Around Diversity"
+    video: "https://www.youtube.com/watch?v=zKlbkZUGyk0"
+  - speaker: "Steph Yiu"
+    title: "Management Mistakes I've Made (So You Don't Have To)"
+    video: "https://www.youtube.com/watch?v=jYXX3QFgtYg"
+  - speaker: "Meg Guliford"
+    title: "Teaching For Knowledge"
+    video: "https://www.youtube.com/watch?v=DU7hbviTUhQ"
+  - speaker: "Hadley Wickham"
+    title: "Letter to a Young Maintainer"
+    video: "https://www.youtube.com/watch?v=1K7u5hkciLI"
+  - speaker: "Abby Fuller"
+    title: "\"Soft\" Talks and Being Technical"
+    video: "https://www.youtube.com/watch?v=cDgi4oaoIto"
 ---
-
-### Erik Dasque - [Mentorship: A Tradition, A Right, and A Duty]
-
-{{< youtube "KR_-2PHX5Qc" >}}
-
-### Maureen McElaney - [Digital Discrimination: Cognitive Bias in Machine Learning]
-
-{{< youtube I7WCpVKYge0 >}}
-
-### Alex Avritch - [How To Get The Best Candidates to Swipe Right]
-
-{{< youtube "9Sw5FD_5XMc" >}}
-
-### Swarna Podila - [Achieving Career Goals is a Lot Like Being a Spider Person]
-
-{{< youtube nVVRnU76ZRE >}}
-
-### Jeremy Bowers - [The Data is Made Out of People]
-
-{{< youtube sn4T04fAmXU >}}
-
-### Julia Ferraioli - [Building Compassion]
-
-{{< youtube X6qOweQtqTg >}}
-
-### Kohsuke Kawaguchi - [My Personal Journey Around Diversity]
-
-{{< youtube zKlbkZUGyk0 >}}
-
-### Steph Yiu - [Management Mistakes I've Made (So You Don't Have To)]
-
-{{< youtube jYXX3QFgtYg >}}
-
-### Meg Guliford - [Teaching For Knowledge]
-
-{{< youtube DU7hbviTUhQ >}}
-
-### Hadley Wickham - [Letter to a Young Maintainer]
-
-{{< youtube 1K7u5hkciLI >}}
-
-### Abby Fuller - ["Soft" Talks and Being Technical]
-
-{{< youtube cDgi4oaoIto >}}

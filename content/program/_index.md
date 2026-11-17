@@ -10,7 +10,7 @@ We do not disclose our speaker list in advance ( [here's the rationale about why
 
 To that end, we have a high-level agenda [published here](/#schedule). If you'd like a further sense of content to expect, please check out some of the talks from our previous events or browse the conference recaps from the team.
 
-### Recaps from Previous Events
+## Recaps from Previous Events
 
 - Steve O'Grady: [The 2022 Monktoberfest](https://redmonk.com/sogrady/2022/10/26/the-2022-monktoberfest/)
 - Steve O'Grady: [The 2019 Monktoberfest](https://redmonk.com/sogrady/2019/10/10/the-2019-monktoberfest/)
@@ -26,8 +26,8 @@ To that end, we have a high-level agenda [published here](/#schedule). If you'd 
 - Steve O'Grady: [The 2014 Monktoberfest](http://redmonk.com/sogrady/2014/10/07/monktoberfest-2014/)
 - Steve O'Grady: [The 2013 Monktoberfest](http://redmonk.com/sogrady/2013/10/07/monktoberfest-2013/)
 - Steve O'Grady: [Monktoberfest 2012](http://redmonk.com/sogrady/2012/10/10/monktoberfest-2012/)
-Steve O'Grady: [A Brief History of the Monktoberfest](http://redmonk.com/sogrady/2011/10/09/monktoberfest/)
+- Steve O'Grady: [A Brief History of the Monktoberfest](http://redmonk.com/sogrady/2011/10/09/monktoberfest/)
 
 ---
 
-### Past Agendas
+## Past Agendas

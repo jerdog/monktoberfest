@@ -3,48 +3,38 @@ author: townsendlily
 date: "2022-11-15T23:55:08+00:00"
 title: "Speakers from 2022"
 url: /program/2022-speakers/
+talks:
+  - speaker: "Julia Ferraioli & Amanda Casari"
+    title: "Remember When We Broke the Internet?"
+    video: "https://youtu.be/uvdzTD6ZAlY"
+  - speaker: "JT Perry"
+    title: "Tip of the Pandemic"
+    video: "https://youtu.be/6iT_VyNGqwg"
+  - speaker: "Andrew Todd"
+    title: "Acid Rock Drainage"
+    video: "https://youtu.be/CRITEqtfU_U"
+  - speaker: "Amara Graham"
+    title: "My Year of No (and the Growth it Inspired)"
+    video: "https://youtu.be/ThLWAK30GiQ"
+  - speaker: "Joe Emison"
+    title: "Why We Choose Columbus"
+    video: "https://youtu.be/sJ4C8mDjUoo"
+  - speaker: "Margaret Fero"
+    title: "Corpora: Literal and Metaphorical"
+    video: "https://youtu.be/SDpE1MalWKI"
+  - speaker: "Ann Cerveny"
+    title: "Everything You Want is on the Other Side of Admin Privileges"
+    video: "https://youtu.be/Mu0ZJPrdUtY"
+  - speaker: "Corey Quinn"
+    title: "The Art of Personal Failure"
+    video: "https://youtu.be/VGdNrewDw3M"
+  - speaker: "Jeremy Meiss"
+    title: "Mentorship, and Restarting Civilization from Scratch"
+    video: "https://youtu.be/xWmvquul91g"
+  - speaker: "Rachel Stephens"
+    title: "Introspection Gaps"
+    video: "https://youtu.be/EaHs2tmiU9U"
+  - speaker: "Bryan Cantrill"
+    title: "Coming of Age"
+    video: "https://youtu.be/VzdVSMRu16g"
 ---
-
-### Julia Ferraioli & Amanda Casari - [Remember When We Broke the Internet?]
-
-https://youtu.be/uvdzTD6ZAlY
-
-### JT Perry - [Tip of the Pandemic]
-
-https://youtu.be/6iT\_VyNGqwg
-
-### Andrew Todd - [Acid Rock Drainage]
-
-https://youtu.be/CRITEqtfU\_U
-
-### Amara Graham - [My Year of No (and the Growth it Inspired)]
-
-https://youtu.be/ThLWAK30GiQ
-
-### Joe Emison - [Why We Choose Columbus]
-
-https://youtu.be/sJ4C8mDjUoo
-
-### Margaret Fero - [Corpora: Literal and Metaphorical]
-
-https://youtu.be/SDpE1MalWKI
-
-### Ann Cerveny - [Everything You Want is on the Other Side of Admin Privileges]
-
-https://youtu.be/Mu0ZJPrdUtY
-
-### Corey Quinn - [The Art of Personal Failure]
-
-https://youtu.be/VGdNrewDw3M
-
-### Jeremy Meiss - [Mentorship, and Restarting Civilization from Scratch]
-
-https://youtu.be/xWmvquul91g
-
-### Rachel Stephens - [Introspection Gaps]
-
-https://youtu.be/EaHs2tmiU9U
-
-### Bryan Cantrill - [Coming of Age]
-
-https://youtu.be/VzdVSMRu16g

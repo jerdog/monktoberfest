@@ -3,44 +3,35 @@ author: rachelstephens
 date: "2019-04-19T21:23:42+00:00"
 title: "Speakers from 2018"
 url: /program/2018-speakers/
+talks:
+  - speaker: "Adrian Cockcroft"
+    title: "Chaos Engineering"
+    video: "https://www.youtube.com/watch?v=lLqASI11Z-M"
+  - speaker: "Leah McGowen-Hare"
+    title: "Empowering Your Community"
+    video: "https://www.youtube.com/watch?v=grLs7U4pZfY"
+  - speaker: "Kevin Barrett"
+    title: "Freshman Mandatory Ethics Seminar"
+    video: "https://www.youtube.com/watch?v=JLvl0M6tHkM"
+  - speaker: "Cecy Correa"
+    title: "Psychology of Fake News and What Tech Can Do About It"
+    video: "https://www.youtube.com/watch?v=BxZXb9L5npo"
+  - speaker: "Emily Nakashima"
+    title: "Hiring is Broken"
+    video: "https://www.youtube.com/watch?v=HaMPnpikCfk"
+  - speaker: "KellyAnn Fitzpatrick"
+    title: "Tales from the Post-Millennial Classroom"
+    video: "https://www.youtube.com/watch?v=O4oX6njADEk"
+  - speaker: "Greg Avola"
+    title: "From the Source: The Untappd Story"
+    video: "https://www.youtube.com/watch?v=GzDBMU_WlZo"
+  - speaker: "Dormain Drewitz"
+    title: "Death and DevOps"
+    video: "https://www.youtube.com/watch?v=JubjEkJA0_g"
+  - speaker: "Joe Emison"
+    title: "How to Fold a Fitted Sheet"
+    video: "https://www.youtube.com/watch?v=r6Iqn6mdmSs"
+  - speaker: "Claire Giordano"
+    title: "Better Living Through Empathy"
+    video: "https://www.youtube.com/watch?v=qcpVs-7d6Ys"
 ---
-
-### Adrian Cockcroft - [Chaos Engineering]
-
-{{< youtube lLqASI11Z-M >}}
-
-### Leah McGowen-Hare - [Empowering Your Community]
-
-{{< youtube grLs7U4pZfY >}}
-
-### Kevin Barrett - [Freshman Mandatory Ethics Seminar]
-
-{{< youtube JLvl0M6tHkM >}}
-
-### Cecy Correa - [Psychology of Fake News and What Tech Can Do About It]
-
-{{< youtube BxZXb9L5npo >}}
-
-### Emily Nakashima - [Hiring is Broken]
-
-{{< youtube HaMPnpikCfk >}}
-
-### KellyAnn Fitzpatrick - [Tales from the Post-Millennial Classroom]
-
-{{< youtube O4oX6njADEk >}}
-
-### Greg Avola - [From the Source: The Untappd Story]
-
-{{< youtube "GzDBMU_WlZo" >}}
-
-### Dormain Drewitz - [Death and DevOps]
-
-{{< youtube "JubjEkJA0_g" >}}
-
-### Joe Emison - [How to Fold a Fitted Sheet]
-
-{{< youtube r6Iqn6mdmSs >}}
-
-### Claire Giordano - [Better Living Through Empathy]
-
-{{< youtube qcpVs-7d6Ys >}}

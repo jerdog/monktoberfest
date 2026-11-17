@@ -1,28 +1,20 @@
-# Created by https://www.toptal.com/developers/gitignore/api/hugo
-# Edit at https://www.toptal.com/developers/gitignore?templates=hugo
+# dependencies
+/node_modules
 
-### Hugo ###
-# Generated files by hugo
-/public/
-/resources/
-/assets/jsconfig.json
-hugo_stats.json
+# Next.js / OpenNext build output
+/.next/
+/.open-next/
+/out/
+next-env.d.ts
 
-# Executable may be added to repository
-hugo.exe
-hugo.darwin
-hugo.linux
-
-# Temporary lock file while building
-/.hugo_build.lock
+# Cloudflare
+.wrangler/
+.dev.vars*
+!.dev.vars.example
 
 # Misc
 .DS_Store
-.wrangler/
-
-
-# End of https://www.toptal.com/developers/gitignore/api/hugo
+*.log
 
 #Ignore vscode AI rules
 .github/instructions/codacy.instructions.md
-

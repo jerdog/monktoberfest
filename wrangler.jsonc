@@ -1,33 +1,39 @@
 {
-  "name": "monktoberfest-web",
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // Must match the Worker's name in the Cloudflare dashboard.
+  "name": "monktoberfest",
+  "main": ".open-next/worker.js",
   "compatibility_date": "2026-06-29",
-  "compatibility_flags": ["nodejs_compat"],
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
   "preview_urls": true,
-  "build": {
-    "command": "hugo --gc --minify"
-  },
   "routes": [
- 	{
+    {
       "pattern": "monktoberfest.com",
-	  "custom_domain": true
-	}
+      "custom_domain": true
+    }
   ],
   "assets": {
-    "directory": "./public"
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
   },
+  // Worker Previews (`npx wrangler preview`): one isolated preview per branch / CMS draft.
+  // Assets and compatibility settings above are shared. Bindings, vars and secrets are NOT
+  // inherited; this site uses none, so the block is empty. If you add any, add a
+  // preview-safe copy here too.
+  "previews": {},
   "observability": {
-      "enabled": false,
+    "enabled": false,
+    "head_sampling_rate": 1,
+    "logs": {
+      "enabled": true,
       "head_sampling_rate": 1,
-      "logs": {
-        "enabled": true,
-        "head_sampling_rate": 1,
-        "persist": true,
-        "invocation_logs": true
-      },
-      "traces": {
-        "enabled": true,
-        "persist": true,
-        "head_sampling_rate": 1
-      }
+      "persist": true,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": true,
+      "persist": true,
+      "head_sampling_rate": 1
     }
+  }
 }

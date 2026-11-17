@@ -1,0 +1,40 @@
+{
+  "name": "monktoberfest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "build:worker": "opennextjs-cloudflare build && opennextjs-cloudflare populateCache local",
+    "preview": "npm run build:worker && wrangler dev",
+    "deploy": "npm run build:worker && wrangler deploy",
+    "upload": "npm run build:worker && wrangler preview",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@opennextjs/cloudflare": "1.20.17",
+    "gray-matter": "4.0.3",
+    "js-yaml": "4.3.2",
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "rehype-raw": "7.0.0",
+    "rehype-slug": "6.0.0",
+    "rehype-stringify": "10.0.1",
+    "remark-gfm": "4.0.1",
+    "remark-parse": "11.0.0",
+    "remark-rehype": "11.1.2",
+    "remark-smartypants": "3.0.3",
+    "unified": "11.0.5",
+    "unist-util-visit": "5.2.0"
+  },
+  "devDependencies": {
+    "sass": "1.108.2",
+    "wrangler": "4.164.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
