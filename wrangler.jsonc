@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "monktoberfest-web",
+  // Must match the Worker's name in the Cloudflare dashboard.
+  "name": "monktoberfest",
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-06-29",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
@@ -15,13 +16,11 @@
     "directory": ".open-next/assets",
     "binding": "ASSETS"
   },
-  "services": [
-    {
-      // Self-reference binding used by OpenNext; must match "name" above.
-      "binding": "WORKER_SELF_REFERENCE",
-      "service": "monktoberfest-web"
-    }
-  ],
+  // Worker Previews (`npx wrangler preview`): one isolated preview per branch / CMS draft.
+  // Assets and compatibility settings above are shared. Bindings, vars and secrets are NOT
+  // inherited; this site uses none, so the block is empty. If you add any, add a
+  // preview-safe copy here too.
+  "previews": {},
   "observability": {
     "enabled": false,
     "head_sampling_rate": 1,

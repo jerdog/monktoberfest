@@ -10,7 +10,7 @@ const env = {
 
 test("origin allow-list", () => {
   assert.ok(isAllowedOrigin("https://monktoberfest.com", env.ALLOWED_DOMAINS));
-  assert.ok(isAllowedOrigin("https://abc123-monktoberfest-web.jerdog.workers.dev", env.ALLOWED_DOMAINS));
+  assert.ok(isAllowedOrigin("https://abc123-monktoberfest.jerdog.workers.dev", env.ALLOWED_DOMAINS));
   assert.ok(isAllowedOrigin("http://localhost:3000", env.ALLOWED_DOMAINS));
   assert.ok(!isAllowedOrigin("http://monktoberfest.com", env.ALLOWED_DOMAINS));
   assert.ok(!isAllowedOrigin("https://monktoberfest.com.evil.test", env.ALLOWED_DOMAINS));

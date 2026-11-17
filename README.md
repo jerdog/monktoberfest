@@ -22,7 +22,7 @@ All content lives in this repository as Markdown and YAML, so every change has h
    | **Homepage → Site Settings** | Menu, "Buy Tickets" link, footer |
 
 3. **Save** creates a draft. Nothing goes live yet.
-4. In the CMS's **Workflow** view, move the draft through **Draft → In Review → Ready**. Under the hood each draft is a pull request, and Cloudflare builds a **preview** of the site for it. The preview link is on the pull request in GitHub, and the CMS shows it too when it can detect it.
+4. In the CMS's **Workflow** view, move the draft through **Draft → In Review → Ready**. Under the hood each draft is a branch with a pull request, and Cloudflare builds a **Worker Preview** of the site for it. The preview link is on the pull request in GitHub, and the CMS shows it too when it can detect it.
 5. When it's approved, **Publish**. The live site updates within a couple of minutes.
 
 Images you upload go to `public/images/uploads/`. Give every meaningful image a description (alt text), and every sponsor a name: screen readers read these instead of the image.
@@ -68,19 +68,19 @@ Redirects for old URLs are in `public/_redirects`.
 
 ## Deployment & one-time setup
 
-### 1. The site Worker (`monktoberfest-web`)
+### 1. The site Worker (`monktoberfest`)
 
-`wrangler.jsonc` keeps the existing Worker name and the `monktoberfest.com` custom domain. In the Cloudflare dashboard → **Workers & Pages → monktoberfest-web → Settings → Build**, the build command still runs Hugo. Change it:
+`wrangler.jsonc` uses the dashboard Worker's name (`monktoberfest`) and the `monktoberfest.com` custom domain. In the Cloudflare dashboard → **Workers & Pages → monktoberfest → Settings → Build**:
 
 | Setting | Value |
 | --- | --- |
 | Build command | `npm run build:worker` |
 | Deploy command | `npx wrangler deploy` (the default) |
-| Non-production branch deploy command | `npx wrangler versions upload` (the default) |
+| Worker Previews command | `npx wrangler preview` (the default) |
 
-`npm run build:worker` builds the site and copies the prerendered pages into the Worker's assets, so the stock Wrangler deploy commands work. Don't use the build command `npx opennextjs-cloudflare build` on its own: without that copy step, every Markdown page returns an error.
+`npm run build:worker` builds the site and copies the prerendered pages into the Worker's assets, so the stock Wrangler commands work. Don't use `npx opennextjs-cloudflare build` on its own as the build command: without that copy step, every Markdown page returns an error.
 
-Make sure **builds for non-production branches** are enabled: that's what gives each CMS draft a preview URL.
+**Worker Previews** give every branch (and so every CMS draft) its own preview URL. Turn them on under **Builds → Set up Worker Previews**. The site needs no variables, secrets or bindings, so there is nothing to configure in the Preview settings. The empty `previews` block in `wrangler.jsonc` is all Wrangler requires. If you ever add a binding, variable or secret, add a preview-safe copy to that block too, because previews don't inherit them from production.
 
 Manual deploy from a machine logged in with `wrangler login`: `npm run deploy`.
 

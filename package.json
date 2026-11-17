@@ -1,5 +1,5 @@
 {
-  "name": "monktoberfest-web",
+  "name": "monktoberfest",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -10,7 +10,7 @@
     "build:worker": "opennextjs-cloudflare build && opennextjs-cloudflare populateCache local",
     "preview": "npm run build:worker && wrangler dev",
     "deploy": "npm run build:worker && wrangler deploy",
-    "upload": "npm run build:worker && wrangler versions upload",
+    "upload": "npm run build:worker && wrangler preview",
     "test": "node --test tests/*.test.js"
   },
   "dependencies": {
