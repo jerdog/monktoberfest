@@ -1,33 +1,40 @@
 {
+  "$schema": "node_modules/wrangler/config-schema.json",
   "name": "monktoberfest-web",
+  "main": ".open-next/worker.js",
   "compatibility_date": "2026-06-29",
-  "compatibility_flags": ["nodejs_compat"],
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
   "preview_urls": true,
-  "build": {
-    "command": "hugo --gc --minify"
-  },
   "routes": [
- 	{
+    {
       "pattern": "monktoberfest.com",
-	  "custom_domain": true
-	}
+      "custom_domain": true
+    }
   ],
   "assets": {
-    "directory": "./public"
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
   },
-  "observability": {
-      "enabled": false,
-      "head_sampling_rate": 1,
-      "logs": {
-        "enabled": true,
-        "head_sampling_rate": 1,
-        "persist": true,
-        "invocation_logs": true
-      },
-      "traces": {
-        "enabled": true,
-        "persist": true,
-        "head_sampling_rate": 1
-      }
+  "services": [
+    {
+      // Self-reference binding used by OpenNext; must match "name" above.
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "monktoberfest-web"
     }
+  ],
+  "observability": {
+    "enabled": false,
+    "head_sampling_rate": 1,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "persist": true,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": true,
+      "persist": true,
+      "head_sampling_rate": 1
+    }
+  }
 }

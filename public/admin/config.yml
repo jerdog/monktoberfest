@@ -1,0 +1,338 @@
+# Sveltia CMS configuration: https://sveltiacms.app/en/docs
+# Editors sign in at https://monktoberfest.com/admin/ with their GitHub account.
+
+backend:
+  name: github
+  repo: jerdog/monktoberfest
+  branch: main
+  # GitHub sign-in is handled by the small Worker in cms-auth/ (see README).
+  base_url: https://monktoberfest-cms-auth.jerdog.workers.dev
+  commit_messages:
+    create: "Create {{collection}} «{{slug}}»"
+    update: "Update {{collection}} «{{slug}}»"
+    delete: "Delete {{collection}} «{{slug}}»"
+    uploadMedia: "Upload «{{path}}»"
+    deleteMedia: "Delete «{{path}}»"
+    openAuthoring: "{{message}}"
+
+# Every change is saved as a draft (a pull request) and goes live only once it
+# has been reviewed and published: Draft -> In Review -> Ready -> Publish.
+publish_mode: editorial_workflow
+
+site_url: https://monktoberfest.com
+logo:
+  src: /images/logo.webp
+
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  # ------------------------------------------------------------------ Blog
+  - name: posts
+    label: Blog Posts
+    label_singular: Blog Post
+    description: News and announcements, shown at /blog/.
+    folder: content/blog
+    create: true
+    delete: false
+    slug: "{{slug}}"
+    preview_path: /blog/{{slug}}/
+    sortable_fields: [date, title]
+    summary: "{{title}} ({{date | date('YYYY-MM-DD')}}){{draft | ternary(' — draft', '')}}"
+    index_file:
+      name: _index
+      label: Blog Landing Page
+      fields:
+        - { label: Title, name: title, widget: string }
+        - { label: Date, name: date, widget: hidden }
+        - { label: Background Image, name: bg_image, widget: hidden }
+        - { label: Body, name: body, widget: markdown, required: false }
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Author, name: author, widget: string, required: false }
+      - { label: Date, name: date, widget: datetime }
+      - label: Hidden from site
+        name: draft
+        widget: boolean
+        default: false
+        required: false
+        hint: Turn on to keep this post off the live site even after it is published here.
+      - label: Summary
+        name: description
+        widget: text
+        required: false
+        hint: Shown in the blog list and to search engines.
+      - { label: Featured Image, name: image, widget: image, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Body, name: body, widget: markdown }
+
+  # --------------------------------------------------------------- Attend
+  - name: attend
+    label: Attend Pages
+    label_singular: Attend Page
+    description: Pages under the "Attend" menu (tickets, CFP, code of conduct, …). Add new pages to the menu in Site Settings.
+    folder: content/attend
+    create: true
+    delete: false
+    slug: "{{slug}}"
+    preview_path: /attend/{{slug}}/
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime, required: false }
+      - { label: Hidden from site, name: draft, widget: boolean, default: false, required: false }
+      - { label: Body, name: body, widget: markdown }
+
+  # -------------------------------------------------------------- Program
+  - name: program
+    label: Past Speakers
+    label_singular: Speakers Page
+    description: >-
+      One page per year of talks, listed at /program/previous-years/. To embed a talk,
+      paste the YouTube link on its own line.
+    folder: content/program
+    create: true
+    delete: false
+    slug: "{{year}}-speakers"
+    preview_path: /program/{{slug}}/
+    sortable_fields: [date, title]
+    index_file:
+      name: _index
+      label: Previous Years (intro page)
+      fields:
+        - { label: Title, name: title, widget: string }
+        - { label: URL, name: url, widget: hidden }
+        - { label: Date, name: date, widget: hidden }
+        - { label: Author, name: author, widget: hidden }
+        - { label: Body, name: body, widget: markdown }
+    fields:
+      - { label: Title, name: title, widget: string, hint: 'e.g. "Speakers from 2026"' }
+      - { label: Date, name: date, widget: datetime, hint: Pages are listed newest first by this date. }
+      - { label: Author, name: author, widget: string, required: false }
+      - { label: Body, name: body, widget: markdown }
+
+  # ---------------------------------------------------------------- Pages
+  - name: pages
+    label: Pages
+    description: Standalone pages.
+    files:
+      - name: faq
+        label: FAQ
+        file: content/faq.md
+        preview_path: /faq/
+        fields: &page_fields
+          - { label: Title, name: title, widget: string }
+          - { label: URL, name: url, widget: hidden }
+          - { label: Date, name: date, widget: hidden }
+          - { label: Body, name: body, widget: markdown }
+      - name: travel
+        label: Travel (Getting There)
+        file: content/travel.md
+        preview_path: /travel/
+        fields: *page_fields
+      - name: portland
+        label: Portland
+        file: content/portland.md
+        preview_path: /portland/
+        fields: *page_fields
+      - name: sponsorships
+        label: Sponsorships
+        file: content/sponsorships.md
+        preview_path: /sponsorships/
+        fields: *page_fields
+
+  # ------------------------------------------------------------- Homepage
+  - name: homepage
+    label: Homepage
+    description: Sections of the homepage, the agenda and site-wide settings.
+    files:
+      - name: homepage
+        label: Homepage Sections
+        file: data/en/homepage.yml
+        preview_path: /
+        fields:
+          - label: Banner
+            name: banner
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Show, name: enable, widget: boolean }
+              - { label: Date & place, name: date_time, widget: string }
+              - { label: Headline, name: title, widget: string }
+              - { label: Background image, name: bg_image, widget: image }
+              - &button
+                label: Button
+                name: button
+                widget: object
+                required: false
+                fields:
+                  - { label: Show, name: enable, widget: boolean, default: false }
+                  - { label: Label, name: label, widget: string, required: false }
+                  - { label: Link, name: link, widget: string, required: false }
+          - label: Countdown
+            name: timer
+            widget: object
+            collapsed: true
+            hint: Counts down to this date and time (in the visitor's time zone).
+            fields:
+              - { label: Show, name: enable, widget: boolean }
+              - { label: Title, name: title, widget: string }
+              - { label: Year, name: year, widget: string, pattern: ['^\d{4}$', "e.g. 2026"] }
+              - { label: Month, name: month, widget: string, pattern: ['^\d{1,2}$', "1–12"] }
+              - { label: Day, name: day, widget: string, pattern: ['^\d{1,2}$', "1–31"] }
+              - { label: Hour (24h), name: hour, widget: string, pattern: ['^\d{1,2}$', "0–23"] }
+          - label: About the Event
+            name: event
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Show, name: enable, widget: boolean }
+              - { label: Large outline text, name: title_outline, widget: string, hint: e.g. the year }
+              - { label: Title, name: title, widget: string }
+              - { label: Text, name: content, widget: markdown }
+              - { label: Back image, name: image_back, widget: image }
+              - { label: Front image, name: image_front, widget: image }
+              - *button
+          - label: Ticket Call-to-Action
+            name: cta
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Show, name: enable, widget: boolean }
+              - { label: Small text, name: subtitle, widget: string }
+              - { label: Headline, name: title, widget: text, hint: "Wrap words in **double asterisks** to highlight them." }
+              - { label: Image, name: image, widget: image }
+              - *button
+          - label: Agenda
+            name: schedule
+            widget: object
+            collapsed: true
+            hint: The agenda itself is edited under "Agenda".
+            fields:
+              - { label: Show, name: enable, widget: boolean }
+          - label: Sponsors
+            name: sponsor
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Show, name: enable, widget: boolean }
+              - { label: Large outline text, name: title_outline, widget: string }
+              - { label: Title, name: title, widget: string }
+              - label: Sponsor levels
+                name: sponsor_group
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: Level name, name: title, widget: string }
+                  - label: Sponsors
+                    name: sponsor
+                    widget: list
+                    summary: "{{fields.name}} {{fields.link}}"
+                    fields:
+                      - { label: Name, name: name, widget: string, required: false, hint: Used as the logo's alt text. }
+                      - { label: Logo, name: logo, widget: image }
+                      - { label: Website, name: link, widget: string, required: false }
+              - label: '"Become a sponsor" box'
+                name: sponsorship
+                widget: object
+                fields:
+                  - { label: Show, name: enable, widget: boolean }
+                  - { label: Title, name: title, widget: string }
+                  - { label: Button label, name: label, widget: string }
+                  - { label: Button link, name: link, widget: string }
+          - label: Venue
+            name: venue
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Show, name: enable, widget: boolean }
+              - { label: Title, name: title, widget: string }
+              - { label: Dates, name: date, widget: string }
+              - { label: Address, name: location, widget: text, hint: "Use <br /> for a line break." }
+              - { label: Image, name: image, widget: image }
+              - *button
+
+      - name: schedule
+        label: Agenda
+        file: data/en/schedule.yml
+        preview_path: /#schedule
+        fields:
+          - label: Agenda
+            name: schedule
+            widget: object
+            fields:
+              - { label: Show, name: enable, widget: boolean }
+              - { label: Large outline text, name: title_outline, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Introduction, name: content, widget: markdown }
+              - label: Days
+                name: schedule_tab
+                widget: list
+                summary: "{{fields.title}} — {{fields.date_time}}"
+                fields:
+                  - { label: Tab title, name: title, widget: string, hint: e.g. Day 1 }
+                  - { label: Date, name: date_time, widget: string, hint: "e.g. Thursday, October 1, 2026" }
+                  - label: Items
+                    name: schedule_items
+                    widget: list
+                    summary: "{{fields.time}}"
+                    fields:
+                      - { label: Time, name: time, widget: string }
+                      - { label: Details, name: content, widget: markdown }
+                      - { label: Image, name: image, widget: image, required: false }
+
+      - name: site
+        label: Site Settings
+        file: data/en/site.yml
+        fields:
+          - { label: Site title, name: title, widget: string }
+          - { label: Description (for search engines), name: description, widget: string }
+          - { label: Author, name: author, widget: hidden }
+          - { label: Logo, name: logo, widget: image }
+          - { label: Favicon, name: favicon, widget: image }
+          - { label: Loading screen, name: preloader, widget: hidden }
+          - label: '"Buy Tickets" button'
+            name: navigation_button
+            widget: object
+            fields:
+              - { label: Show, name: enable, widget: boolean }
+              - { label: Label, name: label, widget: string }
+              - { label: Ticket link, name: link, widget: string }
+          - label: Main menu
+            name: menu
+            widget: list
+            summary: "{{fields.name}}"
+            hint: Items with sub-items become drop-down menus. Links starting with /# jump to a homepage section.
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Link, name: url, widget: string, required: false, hint: Leave empty for a drop-down menu. }
+              - label: Sub-items
+                name: children
+                widget: list
+                required: false
+                summary: "{{fields.name}}"
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Link, name: url, widget: string }
+          - { label: Footer text, name: footer_content, widget: string }
+          - { label: Copyright, name: copyright, widget: string }
+          - label: Social links
+            name: social
+            widget: list
+            required: false
+            summary: "{{fields.icon}}"
+            fields:
+              - label: Network
+                name: icon
+                widget: select
+                options:
+                  - { label: Twitter / X, value: tf-ion-social-twitter }
+                  - { label: LinkedIn, value: tf-ion-social-linkedin }
+                  - { label: Facebook, value: tf-ion-social-facebook }
+                  - { label: GitHub, value: tf-ion-social-github }
+                  - { label: YouTube, value: tf-ion-social-youtube }
+              - { label: Link, name: link, widget: string }

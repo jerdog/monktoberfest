@@ -7,76 +7,76 @@ url: /program/2025-speakers/
 
 ### Jon "maddog" Hall - Sovereignty
 
-{{< youtube 0UhXndOYwzU >}}
+https://www.youtube.com/watch?v=0UhXndOYwzU
 
 ---
 
 ### Bryan Cantrill - Trust as Infrastructure
 
-{{< youtube "LOW0ZZsh1BE" >}}
+https://www.youtube.com/watch?v=LOW0ZZsh1BE
 
 ---
 
 ### Rachel Stephens -  Working In Dance Mode
 
-{{< youtube "54QtA_R9htc" >}}
+https://www.youtube.com/watch?v=54QtA_R9htc
 
 ---
 
 ### Ashley Juavinett - Developing Your Neurobulls#!t Detector
 
-{{< youtube "2o1JmxcDPVw" >}}
+https://www.youtube.com/watch?v=2o1JmxcDPVw
 
 ---
 
 ### Sara McGuire - I Trust This Email Finds You Well
 
-{{< youtube "9F0nBTiSNWk" >}}
+https://www.youtube.com/watch?v=9F0nBTiSNWk
 
 ---
 
 ### Ronald McCollam - Prometheus for Pets
 
-{{< youtube "qsSAA3lvbBQ" >}}
+https://www.youtube.com/watch?v=qsSAA3lvbBQ
 
 ---
 
 ### Sarah Hines - The Best Deploy Still Lets You Make Happy Hour
 
-{{< youtube "DEy397Pa1Ts" >}}
+https://www.youtube.com/watch?v=DEy397Pa1Ts
 
 ---
 
 ### Chris Petrilli & JT Perry - Try to Remember
 
-{{< youtube "70TEl_JAl3I" >}}
+https://www.youtube.com/watch?v=70TEl_JAl3I
 
 ---
 
 ### Cat Hicks - On Nightmare Projects
 
-{{< youtube "U8naVinNd6M" >}}
+https://www.youtube.com/watch?v=U8naVinNd6M
 
 ---
 
 ### Julia Ferraioli - The Forks We Carry
 
-{{< youtube "U938StRcH00" >}}
+https://www.youtube.com/watch?v=U938StRcH00
 
 ---
 
 ### Joe Hildebrand - Your Feelings Do Not Scale
 
-{{< youtube "6Lz8A6R5rbE" >}}
+https://www.youtube.com/watch?v=6Lz8A6R5rbE
 
 ---
 
 ### Gabby Berkman - An English Major Walks Into A Tech Company
 
-{{< youtube "xbA4Q5GsSis" >}}
+https://www.youtube.com/watch?v=xbA4Q5GsSis
 
 ---
 
 ### Amanda Casari - Welcome to Roller Derby
 
-{{< youtube "JRCqoH_oOA4" >}}
+https://www.youtube.com/watch?v=JRCqoH_oOA4

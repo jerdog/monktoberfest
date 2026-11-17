@@ -1,0 +1,62 @@
+############################ Site settings ############################
+# Editable in the CMS under "Site Settings". Replaces the [params] and
+# [menu] sections of the old Hugo config.
+title: "The Monktoberfest"
+description: "The developer conference where social meets technology"
+author: "Redmonk"
+logo: "/images/logo.webp"
+favicon: "/images/favicon.png"
+preloader: true
+
+# "Buy Tickets" button in the top navigation
+navigation_button:
+  enable: true
+  label: "Buy Tickets"
+  link: "https://ti.to/monktoberfest/2026"
+
+# Main navigation. Items with "children" become dropdown menus.
+# Links starting with "#" point to sections of the homepage.
+menu:
+  - name: "Home"
+    url: "/"
+  - name: "Attend"
+    children:
+      - name: "COVID Policy"
+        url: "/attend/covid-policy/"
+      - name: "Tickets"
+        url: "/attend/tickets/"
+      - name: "CFP"
+        url: "/attend/cfp/"
+      - name: "Diversity & Inclusion Policy"
+        url: "/attend/diversity-inclusion/"
+      - name: "Accessibility"
+        url: "/attend/accessibility/"
+      - name: "Code of Conduct"
+        url: "/attend/conduct/"
+  - name: "Program"
+    children:
+      - name: "Agenda"
+        url: "/#schedule"
+      - name: "Previous Years"
+        url: "/program/previous-years/"
+  - name: "Sponsors"
+    url: "/#sponsors"
+  - name: "Travel"
+    children:
+      - name: "Getting There"
+        url: "/travel/"
+      - name: "Venue"
+        url: "/#venue"
+      - name: "Portland"
+        url: "/portland/"
+  - name: "FAQ"
+    url: "/faq/"
+
+# Footer
+footer_content: "The developer conference where social meets technology."
+copyright: "Copyright &copy; 2011-2026. Redmonk."
+# Social icons in the footer. Leave the list empty to hide them.
+# Icons: tf-ion-social-facebook, tf-ion-social-github, tf-ion-social-youtube, tf-ion-social-twitter, tf-ion-social-linkedin
+social: []
+#  - icon: "tf-ion-social-linkedin"
+#    link: "https://www.linkedin.com/company/example"

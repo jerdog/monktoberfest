@@ -9,24 +9,24 @@ Though we didn't capture video of the Monktoberfest sessions in the initial year
 
 ### Mike Olson, Cloudera
 
-{{< youtube "-o1C265_h0M" >}}
+https://www.youtube.com/watch?v=-o1C265_h0M
 
 ### Greg Avola, Untappd
 
-{{< youtube ASwsj2wHA6U >}}
+https://www.youtube.com/watch?v=ASwsj2wHA6U
 
 ### Matt Lemay, Bit.ly
 
-{{< youtube iRnamrkGeoM >}}
+https://www.youtube.com/watch?v=iRnamrkGeoM
 
 ### Zack Urlocker, Zendesk
 
-{{< youtube 0KQ5KUArDvo >}}
+https://www.youtube.com/watch?v=0KQ5KUArDvo
 
 ### Steve Citron-Pousty, deCarta
 
-{{< youtube 1JBW1UPhKyA >}}
+https://www.youtube.com/watch?v=1JBW1UPhKyA
 
 ### Donnie Berkholz
 
-{{< youtube sFVjcMiMKg >}}
+https://www.youtube.com/watch?v=sFVjcMiMKg

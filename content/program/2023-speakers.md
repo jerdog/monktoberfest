@@ -31,7 +31,7 @@ https://youtu.be/dKqv-un7Bo8
 
 ### Emily Freeman - [The Day Chicken Tried to Kill Me]
 
-https://youtu.be/u\_5WV9x3BAU
+https://youtu.be/u_5WV9x3BAU
 
 ### Bryan Cantrill - [Intelligence is Not Enough]
 

@@ -7,16 +7,16 @@ url: /program/2012-speakers/
 
 ### Ryan Tomayko - [Distributed Management]
 
-{{< youtube 9jClYGuzgYQ >}}
+https://www.youtube.com/watch?v=9jClYGuzgYQ
 
 ### Steven Citron - [Dropping Science on Your Developer Ecosystem: Lessons from Ecosystem Management]
 
-{{< youtube jhTxWyXZ-dQ >}}
+https://www.youtube.com/watch?v=jhTxWyXZ-dQ
 
 ### Mike Maney - [Engaging Influencers in a Post PR World Using Non-Traditional Methods of Abstraction]
 
-{{< youtube NzMRqf-Iq4Y >}}
+https://www.youtube.com/watch?v=NzMRqf-Iq4Y
 
 ### Rich Sands - [Open Data is not the Same as Open Source]
 
-{{< youtube nuKqGCfbWU >}}
+https://www.youtube.com/watch?v=nuKqGCfbWU

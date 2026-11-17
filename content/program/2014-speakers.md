@@ -7,24 +7,24 @@ url: /program/2014-speakers/
 
 ### Adrian Cockcroft - [Fast Delivery]
 
-{{< youtube "icvtIK83Ig" >}}
+https://www.youtube.com/watch?v=icvtIK83Ig
 
 ### Aneel Lakhani - [Psychological Demands of Technology]
 
-{{< youtube 963w5rMZP7E >}}
+https://www.youtube.com/watch?v=963w5rMZP7E
 
 ### Cliff Moon - [Life in the Data Mines]
 
-{{< youtube R-IV5f6F4MI >}}
+https://www.youtube.com/watch?v=R-IV5f6F4MI
 
 ### Kate Lynch O'Grady - [Let's Talk About Sexual Harassment, Baby]
 
-{{< youtube xRjKBMxlN2M >}}
+https://www.youtube.com/watch?v=xRjKBMxlN2M
 
 ### Jenny Tong – [How the Internet of Things Will Change the Way we Play]
 
-{{< youtube ef8hV7rTar0 >}}
+https://www.youtube.com/watch?v=ef8hV7rTar0
 
 ### Mike Wakerly – [Kegbot]
 
-{{< youtube sHk0hFyxFDA >}}
+https://www.youtube.com/watch?v=sHk0hFyxFDA

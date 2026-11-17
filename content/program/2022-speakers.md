@@ -11,11 +11,11 @@ https://youtu.be/uvdzTD6ZAlY
 
 ### JT Perry - [Tip of the Pandemic]
 
-https://youtu.be/6iT\_VyNGqwg
+https://youtu.be/6iT_VyNGqwg
 
 ### Andrew Todd - [Acid Rock Drainage]
 
-https://youtu.be/CRITEqtfU\_U
+https://youtu.be/CRITEqtfU_U
 
 ### Amara Graham - [My Year of No (and the Growth it Inspired)]
 

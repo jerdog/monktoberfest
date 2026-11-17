@@ -7,44 +7,44 @@ url: /program/2019-speakers/
 
 ### Erik Dasque - [Mentorship: A Tradition, A Right, and A Duty]
 
-{{< youtube "KR_-2PHX5Qc" >}}
+https://www.youtube.com/watch?v=KR_-2PHX5Qc
 
 ### Maureen McElaney - [Digital Discrimination: Cognitive Bias in Machine Learning]
 
-{{< youtube I7WCpVKYge0 >}}
+https://www.youtube.com/watch?v=I7WCpVKYge0
 
 ### Alex Avritch - [How To Get The Best Candidates to Swipe Right]
 
-{{< youtube "9Sw5FD_5XMc" >}}
+https://www.youtube.com/watch?v=9Sw5FD_5XMc
 
 ### Swarna Podila - [Achieving Career Goals is a Lot Like Being a Spider Person]
 
-{{< youtube nVVRnU76ZRE >}}
+https://www.youtube.com/watch?v=nVVRnU76ZRE
 
 ### Jeremy Bowers - [The Data is Made Out of People]
 
-{{< youtube sn4T04fAmXU >}}
+https://www.youtube.com/watch?v=sn4T04fAmXU
 
 ### Julia Ferraioli - [Building Compassion]
 
-{{< youtube X6qOweQtqTg >}}
+https://www.youtube.com/watch?v=X6qOweQtqTg
 
 ### Kohsuke Kawaguchi - [My Personal Journey Around Diversity]
 
-{{< youtube zKlbkZUGyk0 >}}
+https://www.youtube.com/watch?v=zKlbkZUGyk0
 
 ### Steph Yiu - [Management Mistakes I've Made (So You Don't Have To)]
 
-{{< youtube jYXX3QFgtYg >}}
+https://www.youtube.com/watch?v=jYXX3QFgtYg
 
 ### Meg Guliford - [Teaching For Knowledge]
 
-{{< youtube DU7hbviTUhQ >}}
+https://www.youtube.com/watch?v=DU7hbviTUhQ
 
 ### Hadley Wickham - [Letter to a Young Maintainer]
 
-{{< youtube 1K7u5hkciLI >}}
+https://www.youtube.com/watch?v=1K7u5hkciLI
 
 ### Abby Fuller - ["Soft" Talks and Being Technical]
 
-{{< youtube cDgi4oaoIto >}}
+https://www.youtube.com/watch?v=cDgi4oaoIto
