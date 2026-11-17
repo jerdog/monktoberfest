@@ -52,6 +52,24 @@ test("pages keep their Hugo URLs and drafts are excluded", () => {
   assert.equal(program.at(-1), "2011-speakers");
 });
 
+test("past talks are structured and every video link is a YouTube ID", async () => {
+  const { getProgramYears } = await import("../src/lib/content.js");
+  const years = getProgramYears();
+  assert.equal(years[0].year, "2025");
+  const talks = years.flatMap((y) => y.talks);
+  assert.equal(talks.length, 122);
+  for (const t of talks) {
+    assert.ok(t.speaker, "every talk has a speaker");
+    assert.ok(youtubeId(t.video), `${t.speaker}: ${t.video}`);
+  }
+});
+
+test("sponsor logos have names", () => {
+  for (const group of getData("homepage").sponsor.sponsor_group) {
+    for (const s of group.sponsor) assert.ok(s.name, s.logo);
+  }
+});
+
 test("data files load", () => {
   assert.equal(getData("site").title, "The Monktoberfest");
   assert.ok(getData("homepage").sponsor.sponsor_group.length > 0);

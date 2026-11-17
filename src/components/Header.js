@@ -19,7 +19,11 @@ export default function Header({ site }) {
     const close = (e) => {
       if (!e.target.closest?.(".dropdown")) setDropdown(null);
     };
-    const esc = (e) => e.key === "Escape" && setDropdown(null);
+    const esc = (e) => {
+      if (e.key !== "Escape") return;
+      document.getElementById(`menu-toggle-${dropdown}`)?.focus();
+      setDropdown(null);
+    };
     document.addEventListener("click", close);
     document.addEventListener("keydown", esc);
     return () => {
@@ -32,10 +36,10 @@ export default function Header({ site }) {
 
   return (
     <header className="header-bar">
-      <nav className="navbar navbar-expand-lg main-nav">
+      <nav className="navbar navbar-expand-lg main-nav" aria-label="Main">
         <div className="container">
           <a className="navbar-brand" href="/">
-            <img src={site.logo} alt={site.title} className="img-fluid logo-b" />
+            <img src={site.logo} alt={`${site.title} home`} className="img-fluid logo-b" />
           </a>
 
           <button
@@ -54,20 +58,17 @@ export default function Header({ site }) {
               {(site.menu ?? []).map((item, i) =>
                 item.children?.length ? (
                   <li key={item.name} className={`nav-item dropdown${dropdown === i ? " show" : ""}`}>
-                    <a
+                    <button
+                      type="button"
+                      id={`menu-toggle-${i}`}
                       className="nav-link dropdown-toggle"
-                      href="#"
-                      role="button"
-                      aria-haspopup="true"
                       aria-expanded={dropdown === i}
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setDropdown((d) => (d === i ? null : i));
-                      }}
+                      aria-controls={`menu-${i}`}
+                      onClick={() => setDropdown((d) => (d === i ? null : i))}
                     >
                       {item.name}
-                    </a>
-                    <div className={`dropdown-menu${dropdown === i ? " show" : ""}`}>
+                    </button>
+                    <div id={`menu-${i}`} className={`dropdown-menu${dropdown === i ? " show" : ""}`}>
                       {item.children.map((child) => (
                         <a key={child.name} className="dropdown-item" href={child.url}>
                           {child.name}

@@ -3,7 +3,7 @@ import PageTitle from "./PageTitle";
 import { asset, renderPage } from "@/lib/content";
 
 // Port of layouts/program/list.html: intro content then a card per page.
-export default function PageList({ page, pages }) {
+export default function PageList({ page, pages, children }) {
   const intro = page ? renderPage(page) : "";
   return (
     <>
@@ -20,13 +20,14 @@ export default function PageList({ page, pages }) {
                     </div>
                   </div>
                 )}
+                {children && <div className="col-12">{children}</div>}
                 {pages.map((p) => (
                   <div key={p.permalink} className="col-12">
                     <article className="blog-article box-shadow mb-4">
                       <div className="content py-4 px-4">
-                        <h4 className="mb-0">
+                        <h2 className="h4 mb-0">
                           <a href={p.permalink}>{p.title}</a>
-                        </h4>
+                        </h2>
                       </div>
                     </article>
                   </div>

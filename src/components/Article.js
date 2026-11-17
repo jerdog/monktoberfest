@@ -25,7 +25,7 @@ export default function Article({ page }) {
                       </div>
                     </div>
                     <div className="single-post-thumbnail my-4">
-                      {p.image && <img className="img-fluid w-100" src={asset(p.image)} alt={page.title} />}
+                      {p.image && <img className="img-fluid w-100" src={asset(p.image)} alt={p.image_alt ?? ""} />}
                     </div>
                     <div className="post-blog">
                       <Html as="div" className="content" html={renderPage(page)} />

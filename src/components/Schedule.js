@@ -21,7 +21,7 @@ export default function Schedule() {
         <div className="row section-heading">
           <div className="col-lg-10">
             <div className="heading">
-              <span className="stroke-text">{s.title_outline}</span>
+              <span className="stroke-text" aria-hidden="true">{s.title_outline}</span>
               <div className="pl-90">
                 <Html as="h2" className="mt-2" html={md(s.title)} />
                 <Html as="p" html={md(s.content)} />

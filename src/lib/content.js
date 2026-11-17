@@ -176,3 +176,17 @@ export function summary(page, words = 25) {
     .split(" ");
   return text.slice(0, words).join(" ") + (text.length > words ? "…" : "");
 }
+
+/* ----------------------------------------------------------------------------
+ * Past talks (content/program)
+ * ------------------------------------------------------------------------- */
+
+/** Years of past talks, newest first: { year, permalink, title, talks }. */
+export function getProgramYears() {
+  return getSectionPages("program").map((p) => ({
+    year: String(p.slug.match(/\d{4}/)?.[0] ?? p.title.match(/\d{4}/)?.[0] ?? p.title),
+    permalink: p.permalink,
+    title: p.title,
+    talks: Array.isArray(p.params.talks) ? p.params.talks : [],
+  }));
+}

@@ -14,7 +14,7 @@ export default function NotFound() {
             </div>
             <div className="col-lg-6">
               <div className="error-content mt-5 mt-lg-0">
-                <h3>Nothing Found!</h3>
+                <h2 className="h3">Nothing Found!</h2>
                 <p className="mt-3">Sorry, but the page you were looking for doesn&rsquo;t exist.</p>
                 <a href="/" className="btn btn-hero btn-rounded mt-3">
                   Go to home

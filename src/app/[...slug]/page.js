@@ -7,7 +7,9 @@ import BlogList from "@/components/BlogList";
 import PageList from "@/components/PageList";
 import PageTitle from "@/components/PageTitle";
 import Schedule from "@/components/Schedule";
-import { asset, getAllPages, getSectionPages, normalizePath } from "@/lib/content";
+import SpeakersPage from "@/components/SpeakersPage";
+import YearGrid from "@/components/YearGrid";
+import { asset, getAllPages, getProgramYears, getSectionPages, normalizePath } from "@/lib/content";
 
 export const dynamicParams = false;
 
@@ -52,7 +54,9 @@ export default async function ContentPage({ params }) {
   if (!route) notFound();
   const { page } = route;
 
-  if (route.kind === "page") return <Article page={page} />;
+  if (route.kind === "page") {
+    return page.section === "program" ? <SpeakersPage page={page} /> : <Article page={page} />;
+  }
 
   if (route.section === "schedule") {
     return (
@@ -64,5 +68,12 @@ export default async function ContentPage({ params }) {
   }
   const children = getSectionPages(route.section);
   if (route.section === "blog") return <BlogList page={page} pages={children} />;
+  if (route.section === "program") {
+    return (
+      <PageList page={page} pages={[]}>
+        <YearGrid years={getProgramYears()} />
+      </PageList>
+    );
+  }
   return <PageList page={page.body ? page : { ...page, body: "" }} pages={children} />;
 }

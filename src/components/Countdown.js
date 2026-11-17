@@ -33,7 +33,7 @@ export default function Countdown({ year, month, day, hour }) {
   const finished = now !== null && now >= target;
 
   return (
-    <div id="simple-timer" className="syotimer">
+    <div id="simple-timer" className="syotimer" role="timer" aria-live="off" aria-atomic="true">
       <div className="syotimer__head"></div>
       <div className="syotimer__body">
         {finished ? (

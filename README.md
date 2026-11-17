@@ -15,7 +15,7 @@ All content lives in this repository as Markdown and YAML, so every change has h
    | --- | --- |
    | **Blog Posts** | News posts at `/blog/`. "Hidden from site" keeps a post offline. |
    | **Attend Pages** | Tickets, CFP, Code of Conduct, Accessibility, … |
-   | **Past Speakers** | One page per year at `/program/…`. To embed a talk, paste its YouTube link **on its own line**. |
+   | **Past Speakers** | One page per year, shown as a video gallery. Add each talk with its speaker, title and YouTube link. |
    | **Pages** | FAQ, Travel, Portland, Sponsorships |
    | **Homepage → Homepage Sections** | Banner, countdown, event blurb, ticket call-to-action, **sponsors**, venue. Each section has a *Show* switch. |
    | **Homepage → Agenda** | The day-by-day schedule on the homepage |
@@ -25,7 +25,9 @@ All content lives in this repository as Markdown and YAML, so every change has h
 4. In the CMS's **Workflow** view, move the draft through **Draft → In Review → Ready**. Under the hood each draft is a pull request, and Cloudflare builds a **preview** of the site for it. The preview link is on the pull request in GitHub, and the CMS shows it too when it can detect it.
 5. When it's approved, **Publish**. The live site updates within a couple of minutes.
 
-Images you upload go to `public/images/uploads/`.
+Images you upload go to `public/images/uploads/`. Give every meaningful image a description (alt text), and every sponsor a name: screen readers read these instead of the image.
+
+The site targets **WCAG 2.2 AA** accessibility; see `CLAUDE.md` for the conventions.
 
 ---
 
@@ -58,7 +60,7 @@ src/styles/         Original theme SCSS + site overrides (custom.scss)
 cms-auth/           Small Worker that handles GitHub sign-in for the CMS
 ```
 
-Every page is prerendered at build time; the Worker never reads `content/` at runtime. Markdown is rendered to match the old Hugo/Goldmark output: raw HTML is allowed, headings get GitHub-style IDs, quotes and dashes get smart typography, `{{< youtube ID >}}` shortcodes and standalone YouTube links become embeds, and links to `.md` files resolve to the right URL.
+Every page is prerendered at build time; the Worker never reads `content/` at runtime. Past talks are structured front matter (`talks:` with `speaker`, `title`, `video`) rendered as a click-to-play gallery; YouTube's player only loads when a visitor presses play. Markdown is rendered to match the old Hugo/Goldmark output: raw HTML is allowed, headings get GitHub-style IDs, quotes and dashes get smart typography, `{{< youtube ID >}}` shortcodes and standalone YouTube links become embeds, and links to `.md` files resolve to the right URL.
 
 Redirects for old URLs are in `public/_redirects`.
 

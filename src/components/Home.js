@@ -66,7 +66,7 @@ export default function Home() {
               </div>
               <div className="col-lg-7">
                 <div className="about-content-wrap mt-5 mt-lg-0">
-                  <span className="stroke-text">{event.title_outline}</span>
+                  <span className="stroke-text" aria-hidden="true">{event.title_outline}</span>
                   <div className="ml-90">
                     <Html as="h2" className="text-lg mb-3 mt-3" html={md(event.title)} />
                     <Html as="div" className="event-content" html={md(event.content)} />
@@ -116,7 +116,7 @@ export default function Home() {
             <div className="row section-heading">
               <div className="col-lg-6">
                 <div className="heading">
-                  <span className="stroke-text">Venue</span>
+                  <span className="stroke-text" aria-hidden="true">Venue</span>
                 </div>
               </div>
               <div className="col-lg-12">

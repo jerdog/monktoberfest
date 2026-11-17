@@ -92,8 +92,8 @@ collections:
     label: Past Speakers
     label_singular: Speakers Page
     description: >-
-      One page per year of talks, listed at /program/previous-years/. To embed a talk,
-      paste the YouTube link on its own line.
+      One page per year of talks, shown as a video gallery at /program/YYYY-speakers/
+      and listed at /program/previous-years/.
     folder: content/program
     create: true
     delete: false
@@ -113,7 +113,22 @@ collections:
       - { label: Title, name: title, widget: string, hint: 'e.g. "Speakers from 2026"' }
       - { label: Date, name: date, widget: datetime, hint: Pages are listed newest first by this date. }
       - { label: Author, name: author, widget: string, required: false }
-      - { label: Body, name: body, widget: markdown }
+      - label: Talks
+        name: talks
+        widget: list
+        add_to_top: false
+        summary: "{{fields.speaker}} — {{fields.title}}"
+        hint: Drag to reorder. Talks appear in this order.
+        fields:
+          - { label: Speaker(s), name: speaker, widget: string }
+          - { label: Talk title, name: title, widget: string, required: false }
+          - label: YouTube link
+            name: video
+            widget: string
+            required: false
+            hint: Paste the video's address, e.g. https://www.youtube.com/watch?v=… or https://youtu.be/…
+            pattern: ['^$|^https://(www\.)?(youtube\.com/watch\?v=|youtu\.be/)[A-Za-z0-9_-]{11}', "Must be a YouTube link with an 11-character video ID"]
+      - { label: Introduction (optional), name: body, widget: markdown, required: false }
 
   # ---------------------------------------------------------------- Pages
   - name: pages
@@ -233,7 +248,7 @@ collections:
                     widget: list
                     summary: "{{fields.name}} {{fields.link}}"
                     fields:
-                      - { label: Name, name: name, widget: string, required: false, hint: Used as the logo's alt text. }
+                      - { label: Name, name: name, widget: string, hint: "Read aloud by screen readers in place of the logo." }
                       - { label: Logo, name: logo, widget: image }
                       - { label: Website, name: link, widget: string, required: false }
               - label: '"Become a sponsor" box'

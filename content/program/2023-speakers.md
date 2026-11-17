@@ -3,56 +3,44 @@ author: townsendlily
 date: "2023-12-11T16:44:01+00:00"
 title: "Speakers from 2023"
 url: /program/2023-speakers/
+talks:
+  - speaker: "Nickolas Means"
+    title: "The Magnitude 9.1 Meltdown at Fukushima"
+    video: "https://youtu.be/3mhLT3boo6A"
+  - speaker: "Lisa Kamm"
+    title: "Classification and Its Discontents"
+    video: "https://youtu.be/gDaFCDN8EF8"
+  - speaker: "Mike Olson"
+    title: "What is a Board of Directors For?"
+    video: "https://youtu.be/PE7pyfRUShE"
+  - speaker: "Deb Nicholson"
+    title: "Diversity and Allyship... Isn't Always Easy"
+    video: "https://youtu.be/GoeF0ECiksg"
+  - speaker: "Armand Emamdjomeh"
+    title: "There Is No “My” In Team"
+    video: "https://youtu.be/7TQBAqm6RgA"
+  - speaker: "Erynn Peterson"
+    title: "Lasagna Love and the Story of Project Ricotta"
+    video: "https://youtu.be/dKqv-un7Bo8"
+  - speaker: "Emily Freeman"
+    title: "The Day Chicken Tried to Kill Me"
+    video: "https://youtu.be/u_5WV9x3BAU"
+  - speaker: "Bryan Cantrill"
+    title: "Intelligence is Not Enough"
+    video: "https://youtu.be/bQfJi7rjuEk"
+  - speaker: "Aneel Lakhani"
+    title: "The Problems with Money In (Open Source) Software"
+    video: "https://youtu.be/LTCuLyv6SHo"
+  - speaker: "Christina Pacheco"
+    title: "You May Be My Cousin"
+    video: "https://youtu.be/6s-EaCFb1tY"
+  - speaker: "Carol Lee & Morgan Ramsey"
+    title: "Using Evidence Science Instead of Mind Reading to Measure Developer Success"
+    video: "https://youtu.be/SvrSZZbIs4I"
+  - speaker: "Cat Hicks"
+    title: "What I Learned About Productivity from Growing Up Without School"
+    video: "https://youtu.be/AhMuZfedAm0"
+  - speaker: "Taylor Barnett-Torabi"
+    title: "You Used Floppy Disks, So What?"
+    video: "https://youtu.be/M0ars8JfONE"
 ---
-
-### Nickolas Means - [The Magnitude 9.1 Meltdown at Fukushima]
-
-https://youtu.be/3mhLT3boo6A
-
-### Lisa Kamm - [Classification and Its Discontents]
-
-https://youtu.be/gDaFCDN8EF8
-
-### Mike Olson - [What is a Board of Directors For?]
-
-https://youtu.be/PE7pyfRUShE
-
-### Deb Nicholson - [Diversity and Allyship... Isn't Always Easy]
-
-https://youtu.be/GoeF0ECiksg
-
-### Armand Emamdjomeh - [There Is No “My” In Team]
-
-https://youtu.be/7TQBAqm6RgA
-
-### Erynn Peterson - [Lasagna Love and the Story of Project Ricotta]
-
-https://youtu.be/dKqv-un7Bo8
-
-### Emily Freeman - [The Day Chicken Tried to Kill Me]
-
-https://youtu.be/u_5WV9x3BAU
-
-### Bryan Cantrill - [Intelligence is Not Enough]
-
-https://youtu.be/bQfJi7rjuEk
-
-### Aneel Lakhani - [The Problems with Money In (Open Source) Software]
-
-https://youtu.be/LTCuLyv6SHo
-
-### Christina Pacheco - [You May Be My Cousin]
-
-https://youtu.be/6s-EaCFb1tY
-
-### Carol Lee & Morgan Ramsey - [Using Evidence Science Instead of Mind Reading to Measure Developer Success]
-
-https://youtu.be/SvrSZZbIs4I
-
-### Cat Hicks - [What I Learned About Productivity from Growing Up Without School]
-
-https://youtu.be/AhMuZfedAm0
-
-### Taylor Barnett-Torabi - [You Used Floppy Disks, So What?]
-
-https://youtu.be/M0ars8JfONE

@@ -8,7 +8,7 @@ export default function Sponsors({ data }) {
         <div className="row section-heading">
           <div className="col-lg-6">
             <div className="heading">
-              <span className="stroke-text">{data.title_outline}</span>
+              <span className="stroke-text" aria-hidden="true">{data.title_outline}</span>
               <div className="pl-90">
                 <Html as="h2" className="text-black" html={md(data.title)} />
               </div>
@@ -16,7 +16,7 @@ export default function Sponsors({ data }) {
             {data.sponsorship?.enable && (
               <div className="row">
                 <div className="col-lg-12">
-                  <Html as="h5" className="text-black mt-5 mb-4 h3" html={md(data.sponsorship.title)} />
+                  <Html as="h3" className="text-black mt-5 mb-4" html={md(data.sponsorship.title)} />
                   <a href={href(data.sponsorship.link)} className="btn btn-hero btn-rounded">
                     {data.sponsorship.label}
                   </a>
@@ -32,7 +32,7 @@ export default function Sponsors({ data }) {
             </div>
             <div className="col-lg-12">
               {(group.sponsor ?? []).map((sponsor, j) => {
-                const img = <img src={asset(sponsor.logo)} alt={sponsor.name ?? ""} className="img-fluid" />;
+                const img = <img src={asset(sponsor.logo)} alt={sponsor.name || sponsorName(sponsor)} className="img-fluid" />;
                 return (
                   <div key={j} className="client-item">
                     {sponsor.link && sponsor.link !== "#" ? <a href={sponsor.link}>{img}</a> : img}
@@ -45,4 +45,13 @@ export default function Sponsors({ data }) {
       </div>
     </section>
   );
+}
+
+/** Fallback accessible name when an editor leaves "Name" empty: the website's domain. */
+function sponsorName(sponsor) {
+  try {
+    return new URL(sponsor.link).hostname.replace(/^www\./, "");
+  } catch {
+    return "Sponsor";
+  }
 }

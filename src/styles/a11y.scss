@@ -1,0 +1,146 @@
+// Accessibility layer (WCAG 2.2 AA). Loaded last so it can correct the theme.
+$brand: #d81920; // 5.15:1 on white; the original #ea1c24 is 4.48:1
+$focus: #1a5fd0;
+
+// 1.4.3 Contrast: brand red used for text or behind white text.
+.btn-hero,
+.btn-secondary,
+.nav-pills .nav-link.active,
+.back-to-top {
+  background: $brand !important;
+  border-color: $brand !important;
+}
+
+.nav-pills .nav-link.active:before {
+  border-color: $brand transparent transparent !important;
+}
+
+.cta-img .text-color,
+.syotimer-cell_type_day .syotimer-cell__value,
+.time-table .time,
+.text-color {
+  color: $brand !important;
+}
+
+// 2.4.7 Focus Visible: the theme removed all outlines. 3px ring with a white halo.
+:focus-visible {
+  outline: 3px solid $focus !important;
+  outline-offset: 2px;
+}
+
+.btn:focus-visible,
+.back-to-top:focus-visible,
+.talk-video__play:focus-visible {
+  outline: 3px solid $focus !important;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px #fff !important;
+}
+
+.talk-video__play:focus-visible {
+  outline-offset: -5px;
+  box-shadow: inset 0 0 0 8px #fff !important;
+}
+
+// Dark sections need a light focus ring.
+.footer :focus-visible,
+.cta-2 .heading :focus-visible {
+  outline-color: #fff !important;
+}
+
+// 2.4.1 Bypass Blocks
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: -100px;
+  z-index: 100000;
+  padding: 12px 20px;
+  background: #111;
+  color: #fff !important;
+  font-weight: 700;
+  border-radius: 0 0 6px 6px;
+
+  &:focus {
+    top: 0;
+  }
+}
+
+main:focus {
+  outline: none;
+}
+
+// 1.4.1 Use of Color: links inside text are underlined, not just bold.
+.content a:not(.btn),
+.post-blog a:not(.btn),
+.time-table .content a,
+.section-heading p a,
+.about-content-wrap a:not(.btn) {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+// Keyboard access to the hover-only dropdown menus.
+.dropdown:focus-within .dropdown-menu,
+.dropdown.show .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+// Dropdown toggles are <button>s now; make them look like the other nav links.
+button.nav-link {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  width: 100%;
+}
+
+// 2.5.8 Target Size: footer social icons.
+.footer-socails a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+}
+
+// Footer secondary text: lift from 50% white for comfortable contrast.
+.footer .text-white-50 {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+// Visually hidden but available to screen readers (Bootstrap ships this too).
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+// Agenda tabs are <button role="tab"> now (were links containing headings).
+.nav-pills .nav-link.active .h2 {
+  color: #fff;
+}
+
+.nav-pills .nav-link {
+  font: inherit;
+  color: inherit;
+}
+
+.nav-pills .nav-link.active span:not(.h2) {
+  color: #fff;
+}
